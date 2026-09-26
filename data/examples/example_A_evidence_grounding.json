@@ -1,0 +1,40 @@
+{
+  "episode_id": "A::GENA-phys_in__iot_agree-chiller_6-050000::FULL",
+  "family": "A",
+  "template_id": "sample_world/derive_gold",
+  "world_id": "GENA-phys_in__iot_agree-chiller_6-050000",
+  "matched_group_id": "MG-A-GENA-phys_in__iot_agree-chiller_6-050000",
+  "condition_id": "FULL",
+  "asset_id": "chiller_6",
+  "cell": "phys_in__iot_agree",
+  "regime": "FULL",
+  "parameterization": {
+    "seed": 50000,
+    "cell": "phys_in__iot_agree",
+    "asset": "chiller_6",
+    "physical_value": 243.173,
+    "iot_value": 247.179,
+    "active_work_order": false,
+    "technician_present": false
+  },
+  "generator_version": "ae_generator.py@phase8h1_8h2d",
+  "schema_version": "phase8h1_c_gold_schema_freeze_plan/1",
+  "gold_terminal_action": "COMMIT",
+  "TDA": 1,
+  "GSR": 1,
+  "world_hash": "d310e93d13ca94b0",
+  "trace_chain_valid": true,
+  "decisive_delivered": [
+    "capture_image",
+    "get_battery",
+    "get_pose",
+    "list_waypoints",
+    "navigate_to",
+    "open_panel",
+    "read_gauge",
+    "read_iot"
+  ],
+  "admitted": true,
+  "rejections": [],
+  "fingerprint": "c9c5e1d1cf1c9089"
+}

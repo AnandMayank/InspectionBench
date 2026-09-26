@@ -1,0 +1,23 @@
+{
+  "episode_id": "E2::SEQ-06000::ep0",
+  "dimension": "E",
+  "world_id": "SEQ-06000",
+  "world_seed": 6000,
+  "normalized_world_hash": "W-b8917f4ae6063d10147cec86",
+  "scenario_id": "SEQ-06000",
+  "scenario_template": "sample_sequence",
+  "scenario_seed": 6000,
+  "scenario_parameters": {
+    "episode_index": 0,
+    "n_episodes": 3,
+    "process_kind": "linear_drift"
+  },
+  "regime": "FULL",
+  "gold_action": "COMMIT",
+  "band_crossed_by_now": false,
+  "required_modality": "physical",
+  "tool_contract": "SequenceExecutor (shared battery_budget)",
+  "asset_id": "hydraulic_pump_1",
+  "generation_provenance": "sequence_executor.sample_sequence (unmodified, identical to E-v1's generator) -- world sampled strictly before any gold label is computed (derive_sequence_gold is a pure function of the world and episode prefix, label-blindness contract preserved); 30 independent seeds produce genuinely distinct SequenceWorld instances (different asset, base_value, drift process draw), not repeats.",
+  "pool_version": "e_temporal_expanded_v1"
+}

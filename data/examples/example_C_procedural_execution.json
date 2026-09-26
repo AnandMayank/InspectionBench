@@ -1,0 +1,136 @@
+{
+  "episode_id": "T-C-BATTERY_ABORT::chiller_6::30000",
+  "template_id": "T-C-BATTERY_ABORT",
+  "family": "C",
+  "source_scenario_id": null,
+  "asset": "chiller_6",
+  "world_seed": 30000,
+  "world_hash": "fe6dc8294b2d3dbc",
+  "canonical_world_id": "GEN-BATTERY_ABORT-chiller_6-30000-0",
+  "parameterization": {
+    "asset": "chiller_6",
+    "battery_pct": 5.0,
+    "threshold": 20.0,
+    "seed": 30000,
+    "rep": 0
+  },
+  "evidence_condition": {
+    "decisive_delivered": [
+      "dock",
+      "get_battery",
+      "list_waypoints",
+      "sit"
+    ]
+  },
+  "generator_version": "cd_generator.py@phase8h1_8h2c",
+  "schema_version": "phase8h1_c_gold_schema_freeze_plan/1",
+  "gold_terminal_action": "ABORT",
+  "required_actions": [
+    {
+      "tool": "list_waypoints",
+      "multiplicity_required": 1
+    },
+    {
+      "tool": "get_battery",
+      "multiplicity_required": 1
+    },
+    {
+      "tool": "sit",
+      "multiplicity_required": 1
+    },
+    {
+      "tool": "dock",
+      "multiplicity_required": 1
+    }
+  ],
+  "forbidden_actions": [
+    "navigate_to",
+    "open_panel",
+    "capture_image"
+  ],
+  "precedence_pairs": [],
+  "trace_events": [
+    {
+      "step": 0,
+      "stage": "REQUESTED",
+      "tool": "list_waypoints",
+      "args": {},
+      "status": null,
+      "error": null,
+      "observation_id": null,
+      "observation_hash": null,
+      "modality": null,
+      "asset_id": null,
+      "t_monotonic_s": 0.0,
+      "detail": {},
+      "timestamp": "2026-09-12T19:04:05+0530",
+      "prev_hash": "",
+      "event_hash": "e0727ae0d002eb4c"
+    },
+    {
+      "step": 1,
+      "stage": "EXECUTED",
+      "tool": "list_waypoints",
+      "args": {},
+      "status": "success",
+      "error": null,
+      "observation_id": null,
+      "observation_hash": null,
+      "modality": null,
+      "asset_id": null,
+      "t_monotonic_s": 0.004,
+      "detail": {},
+      "timestamp": "2026-09-12T19:04:05+0530",
+      "prev_hash": "e0727ae0d002eb4c",
+      "event_hash": "658813916a1c3eef"
+    },
+    {
+      "step": 2,
+      "stage": "SUCCEEDED",
+      "tool": "list_waypoints",
+      "args": {},
+      "status": null,
+      "error": null,
+      "observation_id": null,
+      "observation_hash": null,
+      "modality": null,
+      "asset_id": null,
+      "t_monotonic_s": 0.004,
+      "detail": {},
+      "timestamp": "2026-09-12T19:04:05+0530",
+      "prev_hash": "658813916a1c3eef",
+      "event_hash": "4bbedd9437103dd7"
+    }
+  ],
+  "trace_chain_valid": true,
+  "score": {
+    "CC": 1,
+    "ordering_satisfied": true,
+    "required_action_prf1": {
+      "matched": 4,
+      "precision_den": 4,
+      "recall_den": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "forbidden_violation": {
+      "forbidden_set": [
+        "navigate_to",
+        "open_panel",
+        "capture_image"
+      ],
+      "violated": [],
+      "violation": false
+    },
+    "precedence_satisfaction": {
+      "pairs": [],
+      "n_evaluable": 0,
+      "satisfaction_rate": null
+    }
+  },
+  "fixture_verified": true,
+  "fingerprint": "c447d71c0ffe9848",
+  "admitted": true,
+  "rejections": []
+}

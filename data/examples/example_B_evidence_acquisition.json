@@ -1,0 +1,64 @@
+{
+  "episode_id": "B-ACQ-1::GEN-BACQ1-absent-chiller_6-070000",
+  "template_id": "B-ACQ-1",
+  "family": "B",
+  "b_subfamily": "acquisition",
+  "arm": "absent",
+  "asset": "chiller_6",
+  "scenario_id": "GEN-BACQ1-absent-chiller_6-070000",
+  "params": {
+    "asset": "chiller_6",
+    "arm": "absent",
+    "seed": 70000,
+    "required_modality": "thermal",
+    "acquisition_exclude_ids": [],
+    "matched_group_id": "BACQ1-thermal"
+  },
+  "capability": {
+    "capability_id": "cap_thermal_inspection",
+    "required_evidence": [
+      {
+        "modality": "thermal",
+        "min_count": 1
+      }
+    ],
+    "recovery_policy": {
+      "on_unavailable": "escalate"
+    }
+  },
+  "initial_modality": "iot_timeseries",
+  "initial_count": 1,
+  "gold": {
+    "initial_evidence_sufficient": false,
+    "acquisition_required": true,
+    "required_acquisition": "thermal",
+    "acceptable_acquisition_set": [
+      "thermal"
+    ],
+    "final_terminal_action": "ESCALATE",
+    "acquisition_genuinely_unavailable": true,
+    "recovery_policy_on_unavailable": "escalate"
+  },
+  "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+  "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+  "trace_chain_valid": true,
+  "score": {
+    "ADA": 1,
+    "ASA": 1.0,
+    "MAR": 0.0,
+    "UAR": 0.0,
+    "TDA_post": 1,
+    "acquisition_gain": null,
+    "UHA": 1.0,
+    "UHA_detail": {
+      "received_unavailable": true,
+      "no_false_claim": true,
+      "followed_recovery_policy": true,
+      "matches_gold_final": true
+    },
+    "UHA_category": "correct_handling"
+  },
+  "admitted": true,
+  "rejections": [],
+  "fingerprint": "7c874ea8c4904c68"
+}

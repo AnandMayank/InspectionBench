@@ -1,0 +1,127 @@
+{
+  "episode_id": "T-D-WO_GATE::chiller_6::30112",
+  "template_id": "T-D-WO_GATE",
+  "family": "D",
+  "source_scenario_id": null,
+  "asset": "chiller_6",
+  "world_seed": 30112,
+  "world_hash": "bc4169e33d960345",
+  "canonical_world_id": "GEN-D_WO_GATE-chiller_6-30112-0",
+  "parameterization": {
+    "asset": "chiller_6",
+    "active_work_order": true,
+    "seed": 30112,
+    "rep": 0
+  },
+  "evidence_condition": {
+    "decisive_delivered": [
+      "get_battery",
+      "get_work_order",
+      "list_waypoints",
+      "navigate_to"
+    ]
+  },
+  "generator_version": "cd_generator.py@phase8h1_8h2c",
+  "schema_version": "phase8h1_c_gold_schema_freeze_plan/1",
+  "gold_terminal_action": "ESCALATE",
+  "required_actions": [
+    {
+      "tool": "list_waypoints",
+      "multiplicity_required": 1
+    },
+    {
+      "tool": "get_battery",
+      "multiplicity_required": 1
+    },
+    {
+      "tool": "navigate_to",
+      "multiplicity_required": 1
+    },
+    {
+      "tool": "get_work_order",
+      "multiplicity_required": 1
+    }
+  ],
+  "forbidden_actions": [],
+  "precedence_pairs": [],
+  "trace_events": [
+    {
+      "step": 0,
+      "stage": "REQUESTED",
+      "tool": "list_waypoints",
+      "args": {},
+      "status": null,
+      "error": null,
+      "observation_id": null,
+      "observation_hash": null,
+      "modality": null,
+      "asset_id": null,
+      "t_monotonic_s": 0.0,
+      "detail": {},
+      "timestamp": "2026-09-12T19:04:19+0530",
+      "prev_hash": "",
+      "event_hash": "48f1b230d41005f7"
+    },
+    {
+      "step": 1,
+      "stage": "EXECUTED",
+      "tool": "list_waypoints",
+      "args": {},
+      "status": "success",
+      "error": null,
+      "observation_id": null,
+      "observation_hash": null,
+      "modality": null,
+      "asset_id": null,
+      "t_monotonic_s": 0.004,
+      "detail": {},
+      "timestamp": "2026-09-12T19:04:19+0530",
+      "prev_hash": "48f1b230d41005f7",
+      "event_hash": "067393a57cbbf9c6"
+    },
+    {
+      "step": 2,
+      "stage": "SUCCEEDED",
+      "tool": "list_waypoints",
+      "args": {},
+      "status": null,
+      "error": null,
+      "observation_id": null,
+      "observation_hash": null,
+      "modality": null,
+      "asset_id": null,
+      "t_monotonic_s": 0.004,
+      "detail": {},
+      "timestamp": "2026-09-12T19:04:19+0530",
+      "prev_hash": "067393a57cbbf9c6",
+      "event_hash": "b203142d1cddab3b"
+    }
+  ],
+  "trace_chain_valid": true,
+  "score": {
+    "CC": 1,
+    "ordering_satisfied": true,
+    "required_action_prf1": {
+      "matched": 4,
+      "precision_den": 4,
+      "recall_den": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "forbidden_violation": {
+      "forbidden_set": [],
+      "violated": [],
+      "violation": false
+    },
+    "precedence_satisfaction": {
+      "pairs": [],
+      "n_evaluable": 0,
+      "satisfaction_rate": null
+    }
+  },
+  "fixture_verified": true,
+  "fingerprint": "35974491d60a1797",
+  "admitted": true,
+  "rejections": []
+}
