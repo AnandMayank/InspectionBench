@@ -1,0 +1,3 @@
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 647, "output_tokens": 12596, "transport_attempts": 1, "pool": "D_physical", "ts": "2026-11-02T01:02:24+0530"}
+{"model": "deepseek/deepseek-v4-pro-0813", "served_model": "deepseek-v4-pro-0813", "transport_attempts": 1, "input_tokens": 446, "output_tokens": 3229, "reasoning_tokens": 3126, "finish_reason": "stop", "pool": "A", "ts": "2026-11-02T01:03:22+0530"}
+{"model": "deepseek/deepseek-v4-pro-0813", "served_model": "deepseek-v4-pro-0813", "transport_attempts": 1, "input_tokens": 2052, "output_tokens": 1667, "reasoning_tokens": 1589, "finish_reason": "stop", "pool": "A", "ts": "2026-11-02T01:03:56+0530"}

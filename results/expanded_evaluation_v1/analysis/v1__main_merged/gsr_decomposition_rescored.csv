@@ -1,0 +1,21 @@
+view,model,regime,n,TDA,observation_delivered,provenance_valid,decision_grounded,asset_match,no_forbidden_action,GSR,capture_image_delivered
+expanded_evaluation_v1,Claude Opus 5.5,DIGITAL_ONLY,796,0.674623,0,1,0,1,1,0,0
+expanded_evaluation_v1,Claude Opus 5.5,ALL,2388,0.732412,0.660385,1,0.660385,1,1,0.503769,0.386516
+expanded_evaluation_v1,Claude Opus 5.5,FULL,796,0.763819,0.994975,1,0.994975,1,1,0.76005,0.454774
+expanded_evaluation_v1,Claude Opus 5.5,PHYSICAL_ONLY,796,0.758794,0.986181,1,0.986181,1,1,0.751256,0.704774
+expanded_evaluation_v1,GPT-6-Astra,DIGITAL_ONLY,796,0.679648,0,1,0,1,1,0,0
+expanded_evaluation_v1,GPT-6-Astra,ALL,2388,0.73995,0.665829,1,0.665829,1,1,0.512982,0.607203
+expanded_evaluation_v1,GPT-6-Astra,FULL,796,0.753769,0.997487,1,0.997487,1,1,0.752513,0.869347
+expanded_evaluation_v1,GPT-6-Astra,PHYSICAL_ONLY,796,0.786432,1,1,1,1,1,0.786432,0.952261
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,DIGITAL_ONLY,796,0.589196,0,1,0,1,1,0,0
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,ALL,2388,0.693886,0.632747,1,0.632747,1,1,0.477806,0.0184255
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,FULL,796,0.738693,0.974874,1,0.974874,1,1,0.726131,0.0138191
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,PHYSICAL_ONLY,796,0.753769,0.923367,1,0.923367,1,1,0.707286,0.0414573
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,DIGITAL_ONLY,796,0.243719,0,1,0,1,1,0,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,ALL,2388,0.617672,0.666667,1,0.666667,1,1,0.536432,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,FULL,796,0.807789,1,1,1,1,1,0.807789,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,PHYSICAL_ONLY,796,0.801508,1,1,1,1,1,0.801508,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,DIGITAL_ONLY,796,0.591709,0,1,0,1,1,0,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,ALL,2388,0.719012,0.66541,1,0.66541,1,1,0.520519,0.0540201
+expanded_evaluation_v1,Qwen3.5-397B-A17B,FULL,796,0.795226,0.998744,1,0.998744,1,1,0.79397,0.0515075
+expanded_evaluation_v1,Qwen3.5-397B-A17B,PHYSICAL_ONLY,796,0.770101,0.997487,1,0.997487,1,1,0.767588,0.110553

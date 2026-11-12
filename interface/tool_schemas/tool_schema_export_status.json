@@ -1,0 +1,37 @@
+{
+ "robot": {
+  "n_tools": 29,
+  "source": "src/servers/robot/main.py",
+  "source_sha256": "4ded8e60a9c65be745fff1c44efcb5f8ef309324591fb36cff9d519b26ddc11a"
+ },
+ "iot": {
+  "n_tools": 4,
+  "source": "src/servers/iot/main.py",
+  "source_sha256": "b499a41203f66665ad383786d1845b3d70131d1109d9f81034acea0779935a0b"
+ },
+ "wo": {
+  "n_tools": 14,
+  "source": "src/servers/wo/main.py",
+  "source_sha256": "69b5ca953e176b187954c1e1835da1eff2d5923775a59c6de3be7dc45816eb60"
+ },
+ "vibration": {
+  "n_tools": 8,
+  "source": "src/servers/vibration/main.py",
+  "source_sha256": "2febe85d5248bb0cb9b9c96b6ae5982de50f0b812cf28f1bb271e7d4a011d1ae"
+ },
+ "utilities": {
+  "n_tools": 3,
+  "source": "src/servers/utilities/main.py",
+  "source_sha256": "e131ad5ad2828bf91701dbac71e57bb0ed031247215bba745e143a2bd13efda0"
+ },
+ "fmsr": {
+  "n_tools": 3,
+  "source": "src/servers/fmsr/main.py",
+  "source_sha256": "72579d6356fb911d7102d5a5406f547b8df1efd8e79cfaf345e5e89478e2d8f3"
+ },
+ "tsfm": {
+  "n_tools": 6,
+  "source": "src/servers/tsfm/main.py",
+  "source_sha256": "60318261ac3e05cf82ac5e6b8167b143fbf89fe65542890ce61e7a2caa09bb6c"
+ }
+}

@@ -1,0 +1,50 @@
+pool,episode_id,reason
+A,A::GENA-phys_in__iot_agree-metro_pump_1-050129::DIGITAL_ONLY,observationally identical to world GENA-phys_in__iot_agree-metro_pump_1-050115 (fingerprint collision)
+A,A::GENA-phys_in__iot_agree-metro_pump_1-050129::FULL,observationally identical to world GENA-phys_in__iot_agree-metro_pump_1-050115 (fingerprint collision)
+A,A::GENA-phys_in__iot_agree-metro_pump_1-050129::PHYSICAL_ONLY,observationally identical to world GENA-phys_in__iot_agree-metro_pump_1-050115 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050323::DIGITAL_ONLY,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050301 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050323::FULL,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050301 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050323::PHYSICAL_ONLY,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050301 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050330::DIGITAL_ONLY,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050304 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050330::FULL,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050304 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050330::PHYSICAL_ONLY,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050304 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050342::DIGITAL_ONLY,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050328 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050342::FULL,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050328 (fingerprint collision)
+A,A::GENA-phys_in__iot_disagree-metro_pump_1-050342::PHYSICAL_ONLY,observationally identical to world GENA-phys_in__iot_disagree-metro_pump_1-050328 (fingerprint collision)
+E,E::SEQ-51268::ep0,sequence observationally identical to SEQ-51263
+E,E::SEQ-51268::ep1,sequence observationally identical to SEQ-51263
+E,E::SEQ-51268::ep2,sequence observationally identical to SEQ-51263
+E,E::SEQ-51307::ep0,sequence observationally identical to SEQ-51266
+E,E::SEQ-51307::ep1,sequence observationally identical to SEQ-51266
+E,E::SEQ-51307::ep2,sequence observationally identical to SEQ-51266
+E,E::SEQ-51308::ep0,sequence observationally identical to SEQ-51274
+E,E::SEQ-51308::ep1,sequence observationally identical to SEQ-51274
+E,E::SEQ-51308::ep2,sequence observationally identical to SEQ-51274
+E,E::SEQ-51317::ep0,sequence observationally identical to SEQ-51278
+E,E::SEQ-51317::ep1,sequence observationally identical to SEQ-51278
+E,E::SEQ-51317::ep2,sequence observationally identical to SEQ-51278
+E,E::SEQ-51321::ep0,sequence observationally identical to SEQ-51274
+E,E::SEQ-51321::ep1,sequence observationally identical to SEQ-51274
+E,E::SEQ-51321::ep2,sequence observationally identical to SEQ-51274
+E,E::SEQ-51322::ep0,sequence observationally identical to SEQ-51320
+E,E::SEQ-51322::ep1,sequence observationally identical to SEQ-51320
+E,E::SEQ-51322::ep2,sequence observationally identical to SEQ-51320
+E,E::SEQ-51330::ep0,sequence observationally identical to SEQ-51318
+E,E::SEQ-51330::ep1,sequence observationally identical to SEQ-51318
+E,E::SEQ-51330::ep2,sequence observationally identical to SEQ-51318
+E,E::SEQ-51341::ep0,sequence observationally identical to SEQ-51302
+E,E::SEQ-51341::ep1,sequence observationally identical to SEQ-51302
+E,E::SEQ-51341::ep2,sequence observationally identical to SEQ-51302
+E,E::SEQ-51350::ep0,sequence observationally identical to SEQ-51242
+E,E::SEQ-51350::ep1,sequence observationally identical to SEQ-51242
+E,E::SEQ-51350::ep2,sequence observationally identical to SEQ-51242
+E,E::SEQ-51352::ep0,sequence observationally identical to SEQ-51312
+E,E::SEQ-51352::ep1,sequence observationally identical to SEQ-51312
+E,E::SEQ-51352::ep2,sequence observationally identical to SEQ-51312
+E,E::SEQ-51357::ep0,sequence observationally identical to SEQ-51284
+E,E::SEQ-51357::ep1,sequence observationally identical to SEQ-51284
+E,E::SEQ-51357::ep2,sequence observationally identical to SEQ-51284
+D_enterprise,T-D-ROUTE_DEPENDENCY::chiller_6::30128,"template defect: navigate_to drops waypoint arg, pose never updates; COMMIT gold unreachable (camera_ready_revision_report_20261030.md s2B; paper G.2)"
+D_enterprise,T-D-ROUTE_DEPENDENCY::hydraulic_pump_1::30129,"template defect: navigate_to drops waypoint arg, pose never updates; COMMIT gold unreachable (camera_ready_revision_report_20261030.md s2B; paper G.2)"
+D_enterprise,T-D-ROUTE_DEPENDENCY::metro_pump_1::30130,"template defect: navigate_to drops waypoint arg, pose never updates; COMMIT gold unreachable (camera_ready_revision_report_20261030.md s2B; paper G.2)"
+D_enterprise,T-D-ROUTE_DEPENDENCY::motor_01::30131,"template defect: navigate_to drops waypoint arg, pose never updates; COMMIT gold unreachable (camera_ready_revision_report_20261030.md s2B; paper G.2)"

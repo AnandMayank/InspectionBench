@@ -1,0 +1,4600 @@
+{
+  "episodes": [
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-absent-chiller_6-070000",
+      "family": "B",
+      "fingerprint": "7c874ea8c4904c68",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ1-thermal",
+        "required_modality": "thermal",
+        "seed": 70000
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-absent-chiller_6-070000",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-absent-hydraulic_pump_1-070001",
+      "family": "B",
+      "fingerprint": "9e2063fa5f9cabea",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ1-thermal",
+        "required_modality": "thermal",
+        "seed": 70001
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-absent-hydraulic_pump_1-070001",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-absent-metro_pump_1-070002",
+      "family": "B",
+      "fingerprint": "161f967daee3e4bd",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "metro_pump_1",
+        "matched_group_id": "BACQ1-thermal",
+        "required_modality": "thermal",
+        "seed": 70002
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-absent-metro_pump_1-070002",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-present-motor_01-070003",
+      "family": "B",
+      "fingerprint": "a4964e1ecad46dfd",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [
+          "obs_thermal_R049"
+        ],
+        "arm": "present",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ1-thermal",
+        "required_modality": "thermal",
+        "seed": 70003
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-present-motor_01-070003",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "k1",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-k1-chiller_6-070004",
+      "family": "B",
+      "fingerprint": "b36f898b29b2c9c6",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "k1",
+        "asset": "chiller_6",
+        "k": 1,
+        "matched_group_id": "BACQ2-acoustic-n3",
+        "min_count": 3,
+        "modality": "acoustic",
+        "seed": 70004
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-k1-chiller_6-070004",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "k3",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-k3-chiller_6-070005",
+      "family": "B",
+      "fingerprint": "04cc81776f078773",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 3,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "k3",
+        "asset": "chiller_6",
+        "k": 3,
+        "matched_group_id": "BACQ2-acoustic-n3",
+        "min_count": 3,
+        "modality": "acoustic",
+        "seed": 70005
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-k3-chiller_6-070005",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "k1",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-k1-hydraulic_pump_1-070006",
+      "family": "B",
+      "fingerprint": "7642a0691f7b14bf",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "k1",
+        "asset": "hydraulic_pump_1",
+        "k": 1,
+        "matched_group_id": "BACQ2-acoustic-n3",
+        "min_count": 3,
+        "modality": "acoustic",
+        "seed": 70006
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-k1-hydraulic_pump_1-070006",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "k3",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-k3-hydraulic_pump_1-070007",
+      "family": "B",
+      "fingerprint": "2a807162189920fa",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 3,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "k3",
+        "asset": "hydraulic_pump_1",
+        "k": 3,
+        "matched_group_id": "BACQ2-acoustic-n3",
+        "min_count": 3,
+        "modality": "acoustic",
+        "seed": 70007
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-k3-hydraulic_pump_1-070007",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-absent-chiller_6-070008",
+      "family": "B",
+      "fingerprint": "6ac64492f50dbf45",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ3-thermal",
+        "required_modality": "thermal",
+        "seed": 70008
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-absent-chiller_6-070008",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-absent-hydraulic_pump_1-070009",
+      "family": "B",
+      "fingerprint": "677a555e19c27553",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ3-thermal",
+        "required_modality": "thermal",
+        "seed": 70009
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-absent-hydraulic_pump_1-070009",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-absent-metro_pump_1-070010",
+      "family": "B",
+      "fingerprint": "2f9a5ce9691837b0",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "metro_pump_1",
+        "matched_group_id": "BACQ3-thermal",
+        "required_modality": "thermal",
+        "seed": 70010
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-absent-metro_pump_1-070010",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_thermal_inspection",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-present-motor_01-070011",
+      "family": "B",
+      "fingerprint": "ec4847b9793d8b44",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "thermal"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "thermal"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "params": {
+        "acquisition_exclude_ids": [
+          "obs_thermal_R049"
+        ],
+        "arm": "present",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ3-thermal",
+        "required_modality": "thermal",
+        "seed": 70011
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-present-motor_01-070011",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "ambiguous",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_reconciliation",
+        "optional_evidence": [
+          {
+            "min_count": 1,
+            "modality": "iot_timeseries"
+          }
+        ],
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic",
+            "quality_threshold": 0.95
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-4::GEN-BACQ4-ambiguous-chiller_6-070012",
+      "family": "B",
+      "fingerprint": "a554e3aea69b4b37",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "ambiguous",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ4-acoustic-chiller_6",
+        "modality": "acoustic",
+        "quality_threshold": 0.95,
+        "seed": 70012
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ4-ambiguous-chiller_6-070012",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-4",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "unambiguous",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_reconciliation",
+        "optional_evidence": [
+          {
+            "min_count": 1,
+            "modality": "iot_timeseries"
+          }
+        ],
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic",
+            "quality_threshold": 0.95
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-4::GEN-BACQ4-unambiguous-chiller_6-070013",
+      "family": "B",
+      "fingerprint": "0732e4d8da46d569",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 1,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "unambiguous",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ4-acoustic-chiller_6",
+        "modality": "acoustic",
+        "quality_threshold": 0.5,
+        "seed": 70013
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ4-unambiguous-chiller_6-070013",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-4",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "ambiguous",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_reconciliation",
+        "optional_evidence": [
+          {
+            "min_count": 1,
+            "modality": "iot_timeseries"
+          }
+        ],
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic",
+            "quality_threshold": 0.95
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-4::GEN-BACQ4-ambiguous-hydraulic_pump_1-070014",
+      "family": "B",
+      "fingerprint": "ad47efdc0cfffc51",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "ambiguous",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ4-acoustic-hydraulic_pump_1",
+        "modality": "acoustic",
+        "quality_threshold": 0.95,
+        "seed": 70014
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ4-ambiguous-hydraulic_pump_1-070014",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-4",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "unambiguous",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_reconciliation",
+        "optional_evidence": [
+          {
+            "min_count": 1,
+            "modality": "iot_timeseries"
+          }
+        ],
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic",
+            "quality_threshold": 0.95
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-4::GEN-BACQ4-unambiguous-hydraulic_pump_1-070015",
+      "family": "B",
+      "fingerprint": "f0b21630ad2bf8ea",
+      "generator_version": "b_acquisition_generator.py@phase8h1_8h2g",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 1,
+      "initial_modality": "acoustic",
+      "params": {
+        "arm": "unambiguous",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ4-acoustic-hydraulic_pump_1",
+        "modality": "acoustic",
+        "quality_threshold": 0.5,
+        "seed": 70015
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ4-unambiguous-hydraulic_pump_1-070015",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "template_id": "B-ACQ-4",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-present-chiller_6-071004",
+      "family": "B",
+      "fingerprint": "83fdb241f3dca17c",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ1-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71004
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-acoustic-present-chiller_6-071004",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-present-chiller_6-071004",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_MIMII-fan-id00-0dB-abnormal-000",
+        "world_id": "GEN-BACQ1-acoustic-present-chiller_6-071004"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-present-hydraulic_pump_1-071005",
+      "family": "B",
+      "fingerprint": "9f71ab12e308241c",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ1-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71005
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-acoustic-present-hydraulic_pump_1-071005",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-present-hydraulic_pump_1-071005",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_R090",
+        "world_id": "GEN-BACQ1-acoustic-present-hydraulic_pump_1-071005"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-absent-metro_pump_1-071006",
+      "family": "B",
+      "fingerprint": "fffb6c0dd11cf812",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "metro_pump_1",
+        "matched_group_id": "BACQ1-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71006
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-acoustic-absent-metro_pump_1-071006",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-absent-metro_pump_1-071006",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ1-acoustic-absent-metro_pump_1-071006"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-absent-motor_01-071007",
+      "family": "B",
+      "fingerprint": "1e608945e47bcc88",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ1-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71007
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-acoustic-absent-motor_01-071007",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-acoustic-absent-motor_01-071007",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ1-acoustic-absent-motor_01-071007"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-present-chiller_6-071008",
+      "family": "B",
+      "fingerprint": "440b5522b7a31db9",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ1-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71008
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-workorder_history-present-chiller_6-071008",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-present-chiller_6-071008",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_wo_1000045_chiller_6",
+        "world_id": "GEN-BACQ1-workorder_history-present-chiller_6-071008"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-present-hydraulic_pump_1-071009",
+      "family": "B",
+      "fingerprint": "0291b4e21eb6d5b4",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ1-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71009
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-workorder_history-present-hydraulic_pump_1-071009",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-present-hydraulic_pump_1-071009",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_wo_1000046_hydraulic_pump_1",
+        "world_id": "GEN-BACQ1-workorder_history-present-hydraulic_pump_1-071009"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-present-metro_pump_1-071010",
+      "family": "B",
+      "fingerprint": "6892ee4684667d4a",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "metro_pump_1",
+        "matched_group_id": "BACQ1-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71010
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-workorder_history-present-metro_pump_1-071010",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-present-metro_pump_1-071010",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_wo_1000046_metro_pump_1",
+        "world_id": "GEN-BACQ1-workorder_history-present-metro_pump_1-071010"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-absent-motor_01-071011",
+      "family": "B",
+      "fingerprint": "3130dd1450b90449",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ1-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ1-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71011
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ1-workorder_history-absent-motor_01-071011",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-1::GEN-BACQ1-workorder_history-absent-motor_01-071011",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ1-workorder_history-absent-motor_01-071011"
+      },
+      "template_id": "B-ACQ-1",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n5_insufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_insufficient-chiller_6-071012",
+      "family": "B",
+      "fingerprint": "f559a0dd5587223f",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 3,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n5",
+      "params": {
+        "arm": "acoustic_n5_insufficient",
+        "asset": "chiller_6",
+        "k": 3,
+        "matched_group_id": "BACQ2-acoustic-n5",
+        "min_count": 5,
+        "modality": "acoustic",
+        "seed": 71012
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n5_insufficient-chiller_6-071012",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_insufficient-chiller_6-071012",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_MIMII-fan-id00-0dB-abnormal-000",
+        "world_id": "GEN-BACQ2-acoustic_n5_insufficient-chiller_6-071012"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n5_insufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_insufficient-hydraulic_pump_1-071013",
+      "family": "B",
+      "fingerprint": "6855f9bf763d27b2",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 3,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n5",
+      "params": {
+        "arm": "acoustic_n5_insufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 3,
+        "matched_group_id": "BACQ2-acoustic-n5",
+        "min_count": 5,
+        "modality": "acoustic",
+        "seed": 71013
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n5_insufficient-hydraulic_pump_1-071013",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_insufficient-hydraulic_pump_1-071013",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_R090",
+        "world_id": "GEN-BACQ2-acoustic_n5_insufficient-hydraulic_pump_1-071013"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n5_sufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_sufficient-chiller_6-071014",
+      "family": "B",
+      "fingerprint": "2d5ad6f124d2cafe",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 5,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n5",
+      "params": {
+        "arm": "acoustic_n5_sufficient",
+        "asset": "chiller_6",
+        "k": 5,
+        "matched_group_id": "BACQ2-acoustic-n5",
+        "min_count": 5,
+        "modality": "acoustic",
+        "seed": 71014
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n5_sufficient-chiller_6-071014",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_sufficient-chiller_6-071014",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-acoustic_n5_sufficient-chiller_6-071014"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n5_sufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_sufficient-hydraulic_pump_1-071015",
+      "family": "B",
+      "fingerprint": "8997b8b6885fad70",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 5,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n5",
+      "params": {
+        "arm": "acoustic_n5_sufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 5,
+        "matched_group_id": "BACQ2-acoustic-n5",
+        "min_count": 5,
+        "modality": "acoustic",
+        "seed": 71015
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n5_sufficient-hydraulic_pump_1-071015",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n5_sufficient-hydraulic_pump_1-071015",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-acoustic_n5_sufficient-hydraulic_pump_1-071015"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n8_insufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_insufficient-chiller_6-071016",
+      "family": "B",
+      "fingerprint": "462fd2b001f0e3aa",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 6,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n8",
+      "params": {
+        "arm": "acoustic_n8_insufficient",
+        "asset": "chiller_6",
+        "k": 6,
+        "matched_group_id": "BACQ2-acoustic-n8",
+        "min_count": 8,
+        "modality": "acoustic",
+        "seed": 71016
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n8_insufficient-chiller_6-071016",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_insufficient-chiller_6-071016",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_MIMII-fan-id00-0dB-abnormal-000",
+        "world_id": "GEN-BACQ2-acoustic_n8_insufficient-chiller_6-071016"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n8_insufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_insufficient-hydraulic_pump_1-071017",
+      "family": "B",
+      "fingerprint": "d739df30a4437a08",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 6,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n8",
+      "params": {
+        "arm": "acoustic_n8_insufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 6,
+        "matched_group_id": "BACQ2-acoustic-n8",
+        "min_count": 8,
+        "modality": "acoustic",
+        "seed": 71017
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n8_insufficient-hydraulic_pump_1-071017",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_insufficient-hydraulic_pump_1-071017",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_R090",
+        "world_id": "GEN-BACQ2-acoustic_n8_insufficient-hydraulic_pump_1-071017"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n8_sufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_sufficient-chiller_6-071018",
+      "family": "B",
+      "fingerprint": "6768906a89dc4cd4",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 8,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n8",
+      "params": {
+        "arm": "acoustic_n8_sufficient",
+        "asset": "chiller_6",
+        "k": 8,
+        "matched_group_id": "BACQ2-acoustic-n8",
+        "min_count": 8,
+        "modality": "acoustic",
+        "seed": 71018
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n8_sufficient-chiller_6-071018",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_sufficient-chiller_6-071018",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-acoustic_n8_sufficient-chiller_6-071018"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "acoustic_n8_sufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_sufficient-hydraulic_pump_1-071019",
+      "family": "B",
+      "fingerprint": "dabb6cffb19d18eb",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 8,
+      "initial_modality": "acoustic",
+      "matched_group_id": "BACQ2-acoustic-n8",
+      "params": {
+        "arm": "acoustic_n8_sufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 8,
+        "matched_group_id": "BACQ2-acoustic-n8",
+        "min_count": 8,
+        "modality": "acoustic",
+        "seed": 71019
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-acoustic_n8_sufficient-hydraulic_pump_1-071019",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-acoustic_n8_sufficient-hydraulic_pump_1-071019",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-acoustic_n8_sufficient-hydraulic_pump_1-071019"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_insufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-chiller_6-071020",
+      "family": "B",
+      "fingerprint": "a331465f25c94265",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_insufficient",
+        "asset": "chiller_6",
+        "k": 1,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71020
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_insufficient-chiller_6-071020",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-chiller_6-071020",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_chiller_6_002875",
+        "world_id": "GEN-BACQ2-iot_n3_insufficient-chiller_6-071020"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_insufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-hydraulic_pump_1-071021",
+      "family": "B",
+      "fingerprint": "0bcc30e8950bcd2c",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_insufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 1,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71021
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_insufficient-hydraulic_pump_1-071021",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-hydraulic_pump_1-071021",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_hydraulic_pump_1_002204",
+        "world_id": "GEN-BACQ2-iot_n3_insufficient-hydraulic_pump_1-071021"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_insufficient",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-metro_pump_1-071022",
+      "family": "B",
+      "fingerprint": "d318b88ed27e1d8d",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_insufficient",
+        "asset": "metro_pump_1",
+        "k": 1,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71022
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_insufficient-metro_pump_1-071022",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-metro_pump_1-071022",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_metro_pump_1_005115",
+        "world_id": "GEN-BACQ2-iot_n3_insufficient-metro_pump_1-071022"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_insufficient",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-motor_01-071023",
+      "family": "B",
+      "fingerprint": "4d61988917645c47",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_insufficient",
+        "asset": "motor_01",
+        "k": 1,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71023
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_insufficient-motor_01-071023",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_insufficient-motor_01-071023",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_motor_01_004095",
+        "world_id": "GEN-BACQ2-iot_n3_insufficient-motor_01-071023"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_sufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-chiller_6-071024",
+      "family": "B",
+      "fingerprint": "a5d5990321ff3029",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_sufficient",
+        "asset": "chiller_6",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71024
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_sufficient-chiller_6-071024",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-chiller_6-071024",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n3_sufficient-chiller_6-071024"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_sufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-hydraulic_pump_1-071025",
+      "family": "B",
+      "fingerprint": "91f023e8fea88061",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_sufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71025
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_sufficient-hydraulic_pump_1-071025",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-hydraulic_pump_1-071025",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n3_sufficient-hydraulic_pump_1-071025"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_sufficient",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-metro_pump_1-071026",
+      "family": "B",
+      "fingerprint": "1db1600e190e11d1",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_sufficient",
+        "asset": "metro_pump_1",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71026
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_sufficient-metro_pump_1-071026",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-metro_pump_1-071026",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n3_sufficient-metro_pump_1-071026"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n3_sufficient",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n3",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 3,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-motor_01-071027",
+      "family": "B",
+      "fingerprint": "efcba1c7fc3bc089",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n3",
+      "params": {
+        "arm": "iot_n3_sufficient",
+        "asset": "motor_01",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n3",
+        "min_count": 3,
+        "modality": "iot_timeseries",
+        "seed": 71027
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n3_sufficient-motor_01-071027",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n3_sufficient-motor_01-071027",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n3_sufficient-motor_01-071027"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_insufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-chiller_6-071028",
+      "family": "B",
+      "fingerprint": "b404b9f872a41590",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_insufficient",
+        "asset": "chiller_6",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71028
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_insufficient-chiller_6-071028",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-chiller_6-071028",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_chiller_6_002875",
+        "world_id": "GEN-BACQ2-iot_n5_insufficient-chiller_6-071028"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_insufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-hydraulic_pump_1-071029",
+      "family": "B",
+      "fingerprint": "190462208071cc4e",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_insufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71029
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_insufficient-hydraulic_pump_1-071029",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-hydraulic_pump_1-071029",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_hydraulic_pump_1_002204",
+        "world_id": "GEN-BACQ2-iot_n5_insufficient-hydraulic_pump_1-071029"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_insufficient",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-metro_pump_1-071030",
+      "family": "B",
+      "fingerprint": "95f2bca0f569b953",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_insufficient",
+        "asset": "metro_pump_1",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71030
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_insufficient-metro_pump_1-071030",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-metro_pump_1-071030",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_metro_pump_1_005115",
+        "world_id": "GEN-BACQ2-iot_n5_insufficient-metro_pump_1-071030"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_insufficient",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-motor_01-071031",
+      "family": "B",
+      "fingerprint": "1cb3f77c92bfa1fa",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 3,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_insufficient",
+        "asset": "motor_01",
+        "k": 3,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71031
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_insufficient-motor_01-071031",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_insufficient-motor_01-071031",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_motor_01_004095",
+        "world_id": "GEN-BACQ2-iot_n5_insufficient-motor_01-071031"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_sufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-chiller_6-071032",
+      "family": "B",
+      "fingerprint": "87238ff037d145eb",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 5,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_sufficient",
+        "asset": "chiller_6",
+        "k": 5,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71032
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_sufficient-chiller_6-071032",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-chiller_6-071032",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n5_sufficient-chiller_6-071032"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_sufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-hydraulic_pump_1-071033",
+      "family": "B",
+      "fingerprint": "9ca2259ec0a36e4f",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 5,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_sufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 5,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71033
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_sufficient-hydraulic_pump_1-071033",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-hydraulic_pump_1-071033",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n5_sufficient-hydraulic_pump_1-071033"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_sufficient",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-metro_pump_1-071034",
+      "family": "B",
+      "fingerprint": "f5bceb80c0988621",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 5,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_sufficient",
+        "asset": "metro_pump_1",
+        "k": 5,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71034
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_sufficient-metro_pump_1-071034",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-metro_pump_1-071034",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n5_sufficient-metro_pump_1-071034"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n5_sufficient",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n5",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 5,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-motor_01-071035",
+      "family": "B",
+      "fingerprint": "1f7df4d13f230e51",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 5,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n5",
+      "params": {
+        "arm": "iot_n5_sufficient",
+        "asset": "motor_01",
+        "k": 5,
+        "matched_group_id": "BACQ2-iot_timeseries-n5",
+        "min_count": 5,
+        "modality": "iot_timeseries",
+        "seed": 71035
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n5_sufficient-motor_01-071035",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n5_sufficient-motor_01-071035",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n5_sufficient-motor_01-071035"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_insufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-chiller_6-071036",
+      "family": "B",
+      "fingerprint": "f20e69bc7440d0a1",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 6,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_insufficient",
+        "asset": "chiller_6",
+        "k": 6,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71036
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_insufficient-chiller_6-071036",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-chiller_6-071036",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_chiller_6_002875",
+        "world_id": "GEN-BACQ2-iot_n8_insufficient-chiller_6-071036"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_insufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-hydraulic_pump_1-071037",
+      "family": "B",
+      "fingerprint": "0824a705084177dc",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 6,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_insufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 6,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71037
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_insufficient-hydraulic_pump_1-071037",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-hydraulic_pump_1-071037",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_hydraulic_pump_1_002204",
+        "world_id": "GEN-BACQ2-iot_n8_insufficient-hydraulic_pump_1-071037"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_insufficient",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-metro_pump_1-071038",
+      "family": "B",
+      "fingerprint": "d0387f93a234fb0e",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 6,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_insufficient",
+        "asset": "metro_pump_1",
+        "k": 6,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71038
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_insufficient-metro_pump_1-071038",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-metro_pump_1-071038",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_metro_pump_1_005115",
+        "world_id": "GEN-BACQ2-iot_n8_insufficient-metro_pump_1-071038"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_insufficient",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-motor_01-071039",
+      "family": "B",
+      "fingerprint": "82c4736ac5e9299c",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 6,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_insufficient",
+        "asset": "motor_01",
+        "k": 6,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71039
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_insufficient-motor_01-071039",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_insufficient-motor_01-071039",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_motor_01_004095",
+        "world_id": "GEN-BACQ2-iot_n8_insufficient-motor_01-071039"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_sufficient",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-chiller_6-071040",
+      "family": "B",
+      "fingerprint": "d9919007f7d49f75",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 8,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_sufficient",
+        "asset": "chiller_6",
+        "k": 8,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71040
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_sufficient-chiller_6-071040",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-chiller_6-071040",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n8_sufficient-chiller_6-071040"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_sufficient",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-hydraulic_pump_1-071041",
+      "family": "B",
+      "fingerprint": "306b4a327525d225",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 8,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_sufficient",
+        "asset": "hydraulic_pump_1",
+        "k": 8,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71041
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_sufficient-hydraulic_pump_1-071041",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-hydraulic_pump_1-071041",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n8_sufficient-hydraulic_pump_1-071041"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_sufficient",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-metro_pump_1-071042",
+      "family": "B",
+      "fingerprint": "fc79007f5d3446f9",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 8,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_sufficient",
+        "asset": "metro_pump_1",
+        "k": 8,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71042
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_sufficient-metro_pump_1-071042",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-metro_pump_1-071042",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n8_sufficient-metro_pump_1-071042"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "iot_n8_sufficient",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_count_sufficiency_iot_n8",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 8,
+            "modality": "iot_timeseries"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-motor_01-071043",
+      "family": "B",
+      "fingerprint": "ccbbaaf2836365a4",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 8,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ2-iot_timeseries-n8",
+      "params": {
+        "arm": "iot_n8_sufficient",
+        "asset": "motor_01",
+        "k": 8,
+        "matched_group_id": "BACQ2-iot_timeseries-n8",
+        "min_count": 8,
+        "modality": "iot_timeseries",
+        "seed": 71043
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ2-iot_n8_sufficient-motor_01-071043",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-2::GEN-BACQ2-iot_n8_sufficient-motor_01-071043",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ2-iot_n8_sufficient-motor_01-071043"
+      },
+      "template_id": "B-ACQ-2",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-present-chiller_6-071052",
+      "family": "B",
+      "fingerprint": "f68e7939860642f9",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ3-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71052
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-acoustic-present-chiller_6-071052",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-present-chiller_6-071052",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_MIMII-fan-id00-0dB-abnormal-000",
+        "world_id": "GEN-BACQ1-acoustic-present-chiller_6-071052"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-present-hydraulic_pump_1-071053",
+      "family": "B",
+      "fingerprint": "290246f78cdd5cc8",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ3-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71053
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-acoustic-present-hydraulic_pump_1-071053",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-present-hydraulic_pump_1-071053",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_acoustic_R090",
+        "world_id": "GEN-BACQ1-acoustic-present-hydraulic_pump_1-071053"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-absent-metro_pump_1-071054",
+      "family": "B",
+      "fingerprint": "12822db62b5673ab",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "metro_pump_1",
+        "matched_group_id": "BACQ3-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71054
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-acoustic-absent-metro_pump_1-071054",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-absent-metro_pump_1-071054",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ1-acoustic-absent-metro_pump_1-071054"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_acoustic",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "acoustic"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-absent-motor_01-071055",
+      "family": "B",
+      "fingerprint": "35c490c4556b4267",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "acoustic"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "acoustic"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-acoustic",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ3-acoustic",
+        "required_modality": "acoustic",
+        "seed": 71055
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-acoustic-absent-motor_01-071055",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-acoustic-absent-motor_01-071055",
+        "modality": "acoustic",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ1-acoustic-absent-motor_01-071055"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "chiller_6",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-present-chiller_6-071056",
+      "family": "B",
+      "fingerprint": "98935f965d5cc872",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "chiller_6",
+        "matched_group_id": "BACQ3-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71056
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-workorder_history-present-chiller_6-071056",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "chiller_6",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-present-chiller_6-071056",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_wo_1000045_chiller_6",
+        "world_id": "GEN-BACQ1-workorder_history-present-chiller_6-071056"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "hydraulic_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-present-hydraulic_pump_1-071057",
+      "family": "B",
+      "fingerprint": "c0c93bebe780dd04",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "hydraulic_pump_1",
+        "matched_group_id": "BACQ3-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71057
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-workorder_history-present-hydraulic_pump_1-071057",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "hydraulic_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-present-hydraulic_pump_1-071057",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_wo_1000046_hydraulic_pump_1",
+        "world_id": "GEN-BACQ1-workorder_history-present-hydraulic_pump_1-071057"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "present",
+      "asset": "metro_pump_1",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-present-metro_pump_1-071058",
+      "family": "B",
+      "fingerprint": "cbcf27439f561773",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "present",
+        "asset": "metro_pump_1",
+        "matched_group_id": "BACQ3-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71058
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-workorder_history-present-metro_pump_1-071058",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "metro_pump_1",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-present-metro_pump_1-071058",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_wo_1000046_metro_pump_1",
+        "world_id": "GEN-BACQ1-workorder_history-present-metro_pump_1-071058"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "absent",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_modality_gap_workorder_history",
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "workorder_history"
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-absent-motor_01-071059",
+      "family": "B",
+      "fingerprint": "6b82fa34b323858b",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "workorder_history"
+        ],
+        "acquisition_genuinely_unavailable": true,
+        "acquisition_required": true,
+        "final_terminal_action": "ESCALATE",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "workorder_history"
+      },
+      "initial_count": 1,
+      "initial_modality": "iot_timeseries",
+      "matched_group_id": "BACQ3-workorder_history",
+      "params": {
+        "acquisition_exclude_ids": [],
+        "arm": "absent",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ3-workorder_history",
+        "required_modality": "workorder_history",
+        "seed": 71059
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ3-workorder_history-absent-motor_01-071059",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": 1.0,
+        "UHA_category": "correct_handling",
+        "UHA_detail": {
+          "followed_recovery_policy": true,
+          "matches_gold_final": true,
+          "no_false_claim": true,
+          "received_unavailable": true
+        },
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-3::GEN-BACQ3-workorder_history-absent-motor_01-071059",
+        "modality": "workorder_history",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ1-workorder_history-absent-motor_01-071059"
+      },
+      "template_id": "B-ACQ-3",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "ambiguous",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_reconciliation_thermal",
+        "optional_evidence": [
+          {
+            "min_count": 1,
+            "modality": "iot_timeseries"
+          }
+        ],
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal",
+            "quality_threshold": 0.95
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-4::GEN-BACQ4-ambiguous-motor_01-071064",
+      "family": "B",
+      "fingerprint": "a4a597237768c27e",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [
+          "iot_timeseries"
+        ],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": true,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": false,
+        "recovery_policy_on_unavailable": "escalate",
+        "required_acquisition": "iot_timeseries"
+      },
+      "initial_count": 1,
+      "initial_modality": "thermal",
+      "matched_group_id": "BACQ4-thermal-motor_01",
+      "params": {
+        "arm": "ambiguous",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ4-thermal-motor_01",
+        "modality": "thermal",
+        "quality_threshold": 0.95,
+        "seed": 71064
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ4-ambiguous-motor_01-071064",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": 1.0,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-4::GEN-BACQ4-ambiguous-motor_01-071064",
+        "modality": "iot_timeseries",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": "obs_iot_motor_01_004095",
+        "world_id": "GEN-BACQ4-ambiguous-motor_01-071064"
+      },
+      "template_id": "B-ACQ-4",
+      "trace_chain_valid": true
+    },
+    {
+      "admitted": true,
+      "arm": "unambiguous",
+      "asset": "motor_01",
+      "b_subfamily": "acquisition",
+      "capability": {
+        "capability_id": "cap_b_acq_reconciliation_thermal",
+        "optional_evidence": [
+          {
+            "min_count": 1,
+            "modality": "iot_timeseries"
+          }
+        ],
+        "recovery_policy": {
+          "on_unavailable": "escalate"
+        },
+        "required_evidence": [
+          {
+            "min_count": 1,
+            "modality": "thermal",
+            "quality_threshold": 0.95
+          }
+        ]
+      },
+      "episode_id": "B-ACQ-4::GEN-BACQ4-unambiguous-motor_01-071065",
+      "family": "B",
+      "fingerprint": "a1fe9205ef2bc559",
+      "generator_version": "b_acquisition_generator.py@phase8h2h_scale",
+      "gold": {
+        "acceptable_acquisition_set": [],
+        "acquisition_genuinely_unavailable": false,
+        "acquisition_required": false,
+        "final_terminal_action": "COMMIT",
+        "initial_evidence_sufficient": true,
+        "recovery_policy_on_unavailable": null,
+        "required_acquisition": null
+      },
+      "initial_count": 1,
+      "initial_modality": "thermal",
+      "matched_group_id": "BACQ4-thermal-motor_01",
+      "params": {
+        "arm": "unambiguous",
+        "asset": "motor_01",
+        "matched_group_id": "BACQ4-thermal-motor_01",
+        "modality": "thermal",
+        "quality_threshold": 0.5,
+        "seed": 71065
+      },
+      "rejections": [],
+      "scenario_id": "GEN-BACQ4-unambiguous-motor_01-071065",
+      "schema_version": "phase8h1_c_gold_schema_freeze_plan/1+b_acquisition_gold/1",
+      "score": {
+        "ADA": 1,
+        "ASA": null,
+        "MAR": 0.0,
+        "TDA_post": 1,
+        "UAR": 0.0,
+        "UHA": null,
+        "UHA_category": null,
+        "UHA_detail": null,
+        "acquisition_gain": null
+      },
+      "source_provenance": {
+        "asset": "motor_01",
+        "benchmark_family": "B",
+        "episode_id": "B-ACQ-4::GEN-BACQ4-unambiguous-motor_01-071065",
+        "modality": "thermal",
+        "provenance_class": "real_substrate_deterministic_resolve",
+        "scenario_family": "B-acquisition",
+        "source_dataset": "src/orchestrator/inspection_capability/data/observation_records.json",
+        "source_id": null,
+        "world_id": "GEN-BACQ4-unambiguous-motor_01-071065"
+      },
+      "template_id": "B-ACQ-4",
+      "trace_chain_valid": true
+    }
+  ],
+  "n": 66,
+  "pool": "B_acq"
+}

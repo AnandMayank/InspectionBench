@@ -1,0 +1,11 @@
+pool,view,model,convention,n,n_DIGITAL_ONLY,TDA_pct,GSR_pct,gap_pp,mechanical_pp=(nDIG/n)*TDA_DIG,"residual_pp(nonDIG TDA=1,GSR=0)",identity_holds,DIG_rows_with_GSR=1,nonDIG_rows_GSR!=TDA,GSR_ceiling_pct=nonDIG/n,mechanical_share_of_gap
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,dropped(paper),2359,793,74.1416,50.9962,23.1454,22.7639,0.381518,True,0,9,66.3841,0.983516
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,A1(missing=0),2388,796,73.2412,50.3769,22.8643,22.4874,0.376884,True,0,9,66.6667,0.983516
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,dropped(paper),2388,796,73.995,51.2982,22.6968,22.6549,0.041876,True,0,1,66.6667,0.998155
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,A1(missing=0),2388,796,73.995,51.2982,22.6968,22.6549,0.041876,True,0,1,66.6667,0.998155
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,dropped(paper),2370,788,69.9156,48.1435,21.7722,19.789,1.98312,True,0,47,66.7511,0.908915
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,A1(missing=0),2388,796,69.3886,47.7806,21.608,19.6399,1.96817,True,0,47,66.6667,0.908915
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,dropped(paper),2373,781,62.1576,53.9823,8.17531,8.17531,0,True,0,0,67.0881,1
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,A1(missing=0),2388,796,61.7672,53.6432,8.12395,8.12395,0,True,0,0,66.6667,1
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,dropped(paper),2364,793,72.6311,52.5804,20.0508,19.9239,0.126904,True,0,3,66.4552,0.993671
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,A1(missing=0),2388,796,71.9012,52.0519,19.8492,19.7236,0.125628,True,0,3,66.6667,0.993671

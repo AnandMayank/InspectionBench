@@ -1,0 +1,26 @@
+tool,fastmcp_server,title,params,required,shown_to_model_in_scored_runs
+capture_image,robot,Capture Asset Gauge Image,asset_id,asset_id,name only
+commit_acoustic_decision,robot,Commit Acoustic Decision (Inspection Capability Framework),"asset_id, inspection_id, observation_id, verdict, action, reason, require_observation","asset_id, inspection_id, observation_id, verdict, action",name only
+commit_reading,robot,Commit Gauge Reading,"asset_id, readings, decision","asset_id, readings, decision",name only
+commit_thermal_decision,robot,Commit Thermal Inspection Decision,"asset_id, inspection_id, observation_id, verdict, action, hotspot_location, reason, require_observation","asset_id, inspection_id, observation_id, verdict, action",name only
+dock,robot,Dock Robot at Charging Station,,,name only
+escalate,robot,Escalate (Enterprise/Procedural),"asset_id, reason","asset_id, reason",name only
+get_asset_state,executor-side (not a FastMCP tool),,,,name only
+get_battery,robot,Get Robot Battery State,,,name only
+get_pose,robot,Get Robot Pose,,,name only
+get_sensor_history,executor-side (not a FastMCP tool),,,,name only
+get_work_order,executor-side (not a FastMCP tool),,,,name only
+list_waypoints,robot,List Inspection Waypoints,asset_id,,name only
+navigate_to,robot,Navigate To Asset,asset_id,asset_id,name only
+open_panel,robot,Open Inspection Panel,asset_id,asset_id,name only
+power_on,robot,Power On Robot Motors,,,name only
+read_acoustic,robot,Read Acoustic Evidence (Inspection Capability Framework),"asset_id, inspection_id, max_age_s, quality_threshold, model_name","asset_id, inspection_id",name only
+read_gauge,robot,Read Physical Gauge,"asset_id, attempt_n","asset_id, attempt_n",name only
+read_iot,executor-side (not a FastMCP tool),,,,name only
+read_thermal_image,robot,Read Thermal Image (Inspection Capability Framework),"asset_id, inspection_id, max_age_s, quality_threshold, model_name, reference_inspection_id, perception_path","asset_id, inspection_id",name only
+read_vibration,robot,Read Vibration Evidence (Inspection Capability Framework),"asset_id, inspection_id, max_age_s, quality_threshold","asset_id, inspection_id",name only
+request_observation,robot,Request Observation (Inspection Capability Framework),"asset_id, inspection_id, modality, max_age_s, quality_threshold, exclude_ids","asset_id, inspection_id, modality",name only
+safety_gate_check,robot,Safety Gate Check,asset_id,asset_id,name only
+select_capability,robot,Select Inspection Capability,"asset_id, competency_primary, visual_category, hazard_class, iot_present",asset_id,name only
+sit,robot,Command Robot to Sit,,,name only
+stand,robot,Command Robot to Stand,,,name only

@@ -1,0 +1,121 @@
+{
+ "V1": {
+  "args_supplied_by_model": 22783,
+  "cap_dropped": 2443,
+  "episode_retries_gt1": 0,
+  "episodes": 11940,
+  "episodes_capture_image_lost_to_cap": 84,
+  "episodes_get_work_order_lost_to_cap": 0,
+  "episodes_read_gauge_lost_to_cap": 78,
+  "episodes_with_failed_gold_tool": 0,
+  "executed": 62094,
+  "failed": 10173,
+  "failed|nested_perception_api_failure": 1892,
+  "failed|resolver_no_qualifying_observation": 8281,
+  "finish_length_truncations": 46,
+  "gold_tool_executed": 17242,
+  "gold_tool_failed": 0,
+  "infra_failure": 0,
+  "llm_calls": 23880,
+  "rejected_not_offered": 1,
+  "requested": 64538,
+  "step1_parsed": 11918,
+  "success": 51921,
+  "transport_retries": 86,
+  "verdict_valid": 11854
+ },
+ "V2": {
+  "args_supplied_by_model": 4265,
+  "cap_dropped": 22,
+  "episode_retries_gt1": 0,
+  "episodes": 2500,
+  "episodes_capture_image_lost_to_cap": 2,
+  "episodes_get_work_order_lost_to_cap": 0,
+  "episodes_read_gauge_lost_to_cap": 0,
+  "episodes_with_failed_gold_tool": 0,
+  "executed": 9904,
+  "failed": 1355,
+  "failed|nested_perception_api_failure": 231,
+  "failed|resolver_no_qualifying_observation": 1124,
+  "finish_length_truncations": 109,
+  "gold_tool_executed": 3842,
+  "gold_tool_failed": 0,
+  "infra_failure": 0,
+  "llm_calls": 5000,
+  "rejected_not_offered": 0,
+  "requested": 9926,
+  "step1_parsed": 2500,
+  "success": 8549,
+  "transport_retries": 3,
+  "verdict_valid": 2395
+ },
+ "agent_visible_names_defined_as_fastmcp_tools": 21,
+ "fastmcp_servers": 7,
+ "fastmcp_tools_total": 67,
+ "frozen93": {
+  "episodes": 465,
+  "infra_failure": 0,
+  "verdict_valid": 445
+ },
+ "g2_crosscheck": {
+  "V1": {
+   "cap_dropped": [
+    2443,
+    2443
+   ],
+   "executed": [
+    62094,
+    62094
+   ],
+   "failed": [
+    10173,
+    10173
+   ],
+   "rejected_not_offered": [
+    1,
+    1
+   ],
+   "requested": [
+    64538,
+    64538
+   ],
+   "success": [
+    51921,
+    51921
+   ]
+  },
+  "V2": {
+   "cap_dropped": [
+    22,
+    22
+   ],
+   "executed": [
+    9904,
+    9904
+   ],
+   "failed": [
+    1355,
+    1355
+   ],
+   "rejected_not_offered": [
+    0,
+    0
+   ],
+   "requested": [
+    9926,
+    9926
+   ],
+   "success": [
+    8549,
+    8549
+   ]
+  }
+ },
+ "prompts_checked": 14440,
+ "prompts_with_schema_keys": 0,
+ "regime_tool_counts": {
+  "DIGITAL_ONLY": 22,
+  "FULL": 25,
+  "PHYSICAL_ONLY": 23
+ }
+}

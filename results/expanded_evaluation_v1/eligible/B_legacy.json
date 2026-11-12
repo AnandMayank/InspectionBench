@@ -1,0 +1,213 @@
+{
+  "episodes": [
+    {
+      "dimension": "B",
+      "episode_id": "B::R011::FULL",
+      "gold_action": null,
+      "normalized_world_hash": null,
+      "regime": "FULL",
+      "required_modality": "physical",
+      "scenario_id": "R011",
+      "scenario_parameters": {},
+      "scenario_seed": null,
+      "scenario_template": "l3_arms/R011 (incumbent, real)",
+      "tool_contract": "l3_arms.arms_for('R011')",
+      "world_id": "R011",
+      "world_seed": null
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::R011::PHYSICAL_ONLY",
+      "gold_action": null,
+      "normalized_world_hash": null,
+      "regime": "PHYSICAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "R011",
+      "scenario_parameters": {},
+      "scenario_seed": null,
+      "scenario_template": "l3_arms/R011 (incumbent, real)",
+      "tool_contract": "l3_arms.arms_for('R011')",
+      "world_id": "R011",
+      "world_seed": null
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::R011::DIGITAL_ONLY",
+      "gold_action": null,
+      "normalized_world_hash": null,
+      "regime": "DIGITAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "R011",
+      "scenario_parameters": {},
+      "scenario_seed": null,
+      "scenario_template": "l3_arms/R011 (incumbent, real)",
+      "tool_contract": "l3_arms.arms_for('R011')",
+      "world_id": "R011",
+      "world_seed": null
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-chiller_6-4000::FULL",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-d80e798801ec2f222672b4e4",
+      "regime": "FULL",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-chiller_6-4000",
+      "scenario_parameters": {
+        "asset": "chiller_6",
+        "physical_in_band": true
+      },
+      "scenario_seed": 4000,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-chiller_6-4000",
+      "world_seed": 4000
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-chiller_6-4000::PHYSICAL_ONLY",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-d80e798801ec2f222672b4e4",
+      "regime": "PHYSICAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-chiller_6-4000",
+      "scenario_parameters": {
+        "asset": "chiller_6",
+        "physical_in_band": true
+      },
+      "scenario_seed": 4000,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-chiller_6-4000",
+      "world_seed": 4000
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-chiller_6-4000::DIGITAL_ONLY",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-d80e798801ec2f222672b4e4",
+      "regime": "DIGITAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-chiller_6-4000",
+      "scenario_parameters": {
+        "asset": "chiller_6",
+        "physical_in_band": true
+      },
+      "scenario_seed": 4000,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-chiller_6-4000",
+      "world_seed": 4000
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-hydraulic_pump_1-4001::FULL",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-953987d1f352136681aa8fce",
+      "regime": "FULL",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-hydraulic_pump_1-4001",
+      "scenario_parameters": {
+        "asset": "hydraulic_pump_1",
+        "physical_in_band": false
+      },
+      "scenario_seed": 4001,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-hydraulic_pump_1-4001",
+      "world_seed": 4001
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-hydraulic_pump_1-4001::PHYSICAL_ONLY",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-953987d1f352136681aa8fce",
+      "regime": "PHYSICAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-hydraulic_pump_1-4001",
+      "scenario_parameters": {
+        "asset": "hydraulic_pump_1",
+        "physical_in_band": false
+      },
+      "scenario_seed": 4001,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-hydraulic_pump_1-4001",
+      "world_seed": 4001
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-hydraulic_pump_1-4001::DIGITAL_ONLY",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-953987d1f352136681aa8fce",
+      "regime": "DIGITAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-hydraulic_pump_1-4001",
+      "scenario_parameters": {
+        "asset": "hydraulic_pump_1",
+        "physical_in_band": false
+      },
+      "scenario_seed": 4001,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-hydraulic_pump_1-4001",
+      "world_seed": 4001
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-metro_pump_1-4002::FULL",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-16769a7ed41ce916bdd2a842",
+      "regime": "FULL",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-metro_pump_1-4002",
+      "scenario_parameters": {
+        "asset": "metro_pump_1",
+        "physical_in_band": true
+      },
+      "scenario_seed": 4002,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-metro_pump_1-4002",
+      "world_seed": 4002
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-metro_pump_1-4002::PHYSICAL_ONLY",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-16769a7ed41ce916bdd2a842",
+      "regime": "PHYSICAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-metro_pump_1-4002",
+      "scenario_parameters": {
+        "asset": "metro_pump_1",
+        "physical_in_band": true
+      },
+      "scenario_seed": 4002,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-metro_pump_1-4002",
+      "world_seed": 4002
+    },
+    {
+      "dimension": "B",
+      "episode_id": "B::B-fm7a-metro_pump_1-4002::DIGITAL_ONLY",
+      "gold_action": "ESCALATE",
+      "normalized_world_hash": "W-16769a7ed41ce916bdd2a842",
+      "regime": "DIGITAL_ONLY",
+      "required_modality": "physical",
+      "scenario_id": "B-fm7a-metro_pump_1-4002",
+      "scenario_parameters": {
+        "asset": "metro_pump_1",
+        "physical_in_band": true
+      },
+      "scenario_seed": 4002,
+      "scenario_template": "sample_world_fm7a_contradiction",
+      "tool_contract": "couchdb_executor.TOOLSET (regime-masked)",
+      "world_id": "B-fm7a-metro_pump_1-4002",
+      "world_seed": 4002
+    }
+  ],
+  "n": 12,
+  "pool": "B_legacy"
+}

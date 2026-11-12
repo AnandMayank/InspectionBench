@@ -1,0 +1,99 @@
+pool,view,world_subset,cell,n_worlds,gold_COMMIT,gold_ESCALATE,policy,TDA,balanced_accuracy,agreement_with_R1
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,R1 digital-only rule,0.985,0.98855,
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,always-ESCALATE,0.345,0.5,
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.376884,0.523077,0.39196
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,LLM GPT-6-Astra (DIGITAL_ONLY),0.346734,0.5,0.361809
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.638191,0.512263,0.653266
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.165829,0.143924,0.180905
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_agree,200,131,69,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.567839,0.536622,0.582915
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,R1 digital-only rule,0.36,0.5,
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,always-ESCALATE,0.36,0.5,
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.365482,0.5,1
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,LLM GPT-6-Astra (DIGITAL_ONLY),0.365482,0.5,1
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.35533,0.486111,0.984772
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.162437,0.222222,0.385787
+A_canonical,expanded_evaluation_v1,ALL,phys_in__iot_disagree,200,128,72,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.365482,0.5,1
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,R1 digital-only rule,1,1,
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,always-ESCALATE,1,1,
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.995,0.995,0.995
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,LLM GPT-6-Astra (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.4,0.4,0.4
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_agree,200,0,200,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,R1 digital-only rule,0.33,0.33,
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,always-ESCALATE,1,1,
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.955,0.955,0.335
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,LLM GPT-6-Astra (DIGITAL_ONLY),1,1,0.33
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.36,0.36,0.535
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.245,0.245,0.165
+A_canonical,expanded_evaluation_v1,ALL,phys_out__iot_disagree,200,0,200,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.43,0.43,0.535
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,R1 digital-only rule,0.66875,0.62326,
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,always-ESCALATE,0.67625,0.5,
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.674623,0.502523,0.679648
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,LLM GPT-6-Astra (DIGITAL_ONLY),0.679648,0.5,0.672111
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.589196,0.557845,0.792714
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.243719,0.208322,0.282663
+A_canonical,expanded_evaluation_v1,ALL,ALL,800,259,541,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.591709,0.52134,0.778894
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,R1 digital-only rule,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,always-ESCALATE,0.350254,0.5,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.382653,0.523622,0.382653
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,LLM GPT-6-Astra (DIGITAL_ONLY),0.352041,0.5,0.352041
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.647959,0.523166,0.647959
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.168367,0.146468,0.168367
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_agree,197,128,69,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.576531,0.544163,0.576531
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,R1 digital-only rule,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,always-ESCALATE,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,LLM Claude Opus 5.5 (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,LLM GPT-6-Astra (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.972222,0.972222,0.972222
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.444444,0.444444,0.444444
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_in__iot_disagree,72,0,72,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,R1 digital-only rule,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,always-ESCALATE,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.995,0.995,0.995
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,LLM GPT-6-Astra (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.4,0.4,0.4
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_agree,200,0,200,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,R1 digital-only rule,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,always-ESCALATE,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.954545,0.954545,0.954545
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,LLM GPT-6-Astra (DIGITAL_ONLY),1,1,1
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.378788,0.378788,0.378788
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.257576,0.257576,0.257576
+A_canonical,expanded_evaluation_v1,digitally_determined,phys_out__iot_disagree,66,0,66,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.454545,0.454545,0.454545
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,R1 digital-only rule,1,1,
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,always-ESCALATE,0.760748,0.5,
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.765918,0.518708,0.765918
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,LLM GPT-6-Astra (DIGITAL_ONLY),0.762172,0.5,0.762172
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.790262,0.843448,0.790262
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.303371,0.274855,0.303371
+A_canonical,expanded_evaluation_v1,digitally_determined,ALL,535,128,407,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.777154,0.734634,0.777154
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,R1 digital-only rule,0,0,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,always-ESCALATE,0,0,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,LLM Claude Opus 5.5 (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,LLM GPT-6-Astra (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_agree,3,3,0,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,R1 digital-only rule,0,0,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,always-ESCALATE,0,0,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,LLM Claude Opus 5.5 (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,LLM GPT-6-Astra (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0,0,0.992
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0,0,0.352
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_in__iot_disagree,128,128,0,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0,0,1
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,R1 digital-only rule,0,0,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,always-ESCALATE,1,1,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.955224,0.955224,0.0298507
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,LLM GPT-6-Astra (DIGITAL_ONLY),1,1,0
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.350746,0.350746,0.61194
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.238806,0.238806,0.119403
+A_canonical,expanded_evaluation_v1,digitally_undecidable,phys_out__iot_disagree,134,0,134,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.41791,0.41791,0.574627
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,R1 digital-only rule,0,0,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,always-ESCALATE,0.50566,0.5,
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,LLM Claude Opus 5.5 (DIGITAL_ONLY),0.48855,0.477612,0.503817
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,LLM GPT-6-Astra (DIGITAL_ONLY),0.51145,0.5,0.48855
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,LLM DeepSeek V4 Pro 0813 (DIGITAL_ONLY),0.179389,0.175373,0.79771
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,LLM Gemini 3.1 Pro Preview (DIGITAL_ONLY),0.122137,0.119403,0.240458
+A_canonical,expanded_evaluation_v1,digitally_undecidable,ALL,265,131,134,LLM Qwen3.5-397B-A17B (DIGITAL_ONLY),0.21374,0.208955,0.782443

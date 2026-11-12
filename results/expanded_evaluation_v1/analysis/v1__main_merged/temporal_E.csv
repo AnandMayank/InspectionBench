@@ -1,0 +1,6 @@
+view,model,sequences,episodes,TDA(CC),TC=mean_CC_grounded,TC_seq_ci95,fresh_observation,budget_refused_read,reused_earlier_observation,no_current_or_prior_observation,seqs_with_3_grounded
+expanded_evaluation_v1,Claude Opus 5.5,469,1407,0.63113,0.389481,"[0.367, 0.412]",835,449,100,23,0
+expanded_evaluation_v1,GPT-6-Astra,469,1407,0.653873,0.564321,"[0.549, 0.580]",927,455,25,,0
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,469,1407,0.704335,0.560057,"[0.543, 0.576]",938,463,,6,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,469,1407,0.573561,0.573561,"[0.559, 0.588]",938,469,,,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,469,1407,0.703625,0.432836,"[0.419, 0.448]",647,753,5,2,4

@@ -1,0 +1,21 @@
+run,model,llm_calls,input_tokens,"output_tokens(billed,incl_reasoning)",reasoning_tokens_reported,elapsed_h,worker_h,parallel_workers,list_price_usd_estimate
+V1 full pool,Claude Opus 5.5,8076,17786342,2993575,0,15.27,15.27,1,131.02
+V1 full pool,GPT-6-Astra,8072,10624482,1044090,406189,14.72,14.72,1,158.45
+V1 full pool,DeepSeek V4 Pro 0813,8072,8912854,13734838,12374204,20.93,81.15,4,66.15
+V1 full pool,Gemini 3.1 Pro Preview,8078,6054887,2710731,2221193,15.28,15.28,1,44.64
+V1 full pool,Qwen3.5-397B-A17B,8072,12225033,6360994,5261813,21.95,42.75,2,30.23
+V1 repeat (stability),Claude Opus 5.5,466,1221660,166501,0,1.15,1.15,1,8.22
+V1 repeat (stability),GPT-6-Astra,466,663240,49644,16225,0.94,0.94,1,9.11
+V1 repeat (stability),DeepSeek V4 Pro 0813,466,547958,730313,604222,4.2,4.19,1,3.62
+V1 repeat (stability),Gemini 3.1 Pro Preview,466,405267,148226,112386,0.88,0.88,1,2.59
+V1 repeat (stability),Qwen3.5-397B-A17B,466,810931,324293,242145,2.53,2.53,1,1.65
+V2 attribution,Claude Opus 5.5,1000,1483740,521414,0,1.79,1.79,1,16.36
+V2 attribution,GPT-6-Astra,1000,1182102,210809,63420,1.61,1.61,1,22.36
+V2 attribution,DeepSeek V4 Pro 0813,1000,1054665,1954099,1772733,8.6,8.6,1,9.13
+V2 attribution,Gemini 3.1 Pro Preview,1000,724889,347881,262818,1.7,1.7,1,5.62
+V2 attribution,Qwen3.5-397B-A17B,1000,1201708,1062694,894901,5.4,5.4,1,4.55
+smoke tests,Claude Opus 5.5,150,259971,48135,0,0.22,0.22,1,2.0
+smoke tests,GPT-6-Astra,170,186084,18733,6506,0.27,0.26,1,2.8
+smoke tests,DeepSeek V4 Pro 0813,91,81610,181506,107173,1.07,1.1,1,0.83
+smoke tests,Gemini 3.1 Pro Preview,150,98883,62029,42217,0.32,0.32,1,0.94
+smoke tests,Qwen3.5-397B-A17B,150,180789,132035,61615,0.67,0.67,1,0.58

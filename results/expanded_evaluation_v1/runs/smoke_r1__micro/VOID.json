@@ -1,0 +1,1 @@
+{"void": true, "reason": "observer bug: circuit breaker consumed HTTPError bodies, defeating the runner max_tokens/temperature fallback (GPT-6-Astra). Fixed in v1_runner.py; superseded by smoke_r2. Outputs must not be used."}

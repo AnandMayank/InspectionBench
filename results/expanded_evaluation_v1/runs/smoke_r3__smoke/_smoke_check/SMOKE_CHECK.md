@@ -1,0 +1,49 @@
+# Run check: smoke_r3__smoke
+
+| model_dir | pool | expected_units | persisted_units | ok | infra | infra_recorded_as_model | model_no_verdict | other | traces_or_trace_fields | images_sent_to_model | calls | served_models | in_tok_per_unit | out_tok_per_unit | median_s_per_unit | halted |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Claude_Opus_5.5/all | A | 12 | 12 | 12 | 0 | 0 | 0 | 0 | 12 | 8 | 24 | claude-opus-5-5 | 3189.33 | 796.25 | 11 | False |
+| Claude_Opus_5.5/all | E | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 3 | 1 | 18 | claude-opus-5-5 | 19214.7 | 2008 | 32 | False |
+| Claude_Opus_5.5/all | B_acq | 4 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |  | 617.5 | 185.25 | 6.665 | False |
+| Claude_Opus_5.5/all | B_legacy | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | claude-opus-5-5 | 2965.5 | 651 | 10 | False |
+| Claude_Opus_5.5/all | C | 7 | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | claude-opus-5-5 | 2818.29 | 593.286 | None | False |
+| Claude_Opus_5.5/all | D_enterprise | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 4 | claude-opus-5-5 | 1914.5 | 328 | 6.5 | False |
+| Claude_Opus_5.5/all | D_physical | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |  | 847.667 | 400.667 | 4.97 | False |
+| DeepSeek_V4_Pro_0813/all | A | 12 | 12 | 12 | 0 | 0 | 0 | 0 | 12 | 0 | 24 | deepseek-v4-pro-0813 | 1793.33 | 2936 | 49.5 | False |
+| DeepSeek_V4_Pro_0813/all | E | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 3 | 0 | 18 | deepseek-v4-pro-0813 | 9410 | 6054.67 | 111 | False |
+| DeepSeek_V4_Pro_0813/all | B_acq | 4 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |  | 547.5 | 1574.5 | 15.42 | False |
+| DeepSeek_V4_Pro_0813/all | B_legacy | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | deepseek-v4-pro-0813 | 2107.5 | 4566.5 | 82.5 | False |
+| DeepSeek_V4_Pro_0813/all | C | 7 | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | deepseek-v4-pro-0813 | 1962 | 4891.43 | None | False |
+| DeepSeek_V4_Pro_0813/all | D_enterprise | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 4 | deepseek-v4-pro-0813 | 1290.5 | 2939.5 | 50 | False |
+| DeepSeek_V4_Pro_0813/all | D_physical | 3 | 3 | 1 | 0 | 0 | 2 | 0 | 0 | 0 | 3 |  | 647.333 | 13270.7 | 257.67 | False |
+| GPT-6-Astra/all | A | 12 | 12 | 12 | 0 | 0 | 0 | 0 | 12 | 8 | 24 | gpt-6-astra | 2213.75 | 293.583 | 13 | False |
+| GPT-6-Astra/all | E | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 3 | 0 | 18 | gpt-6-astra | 10684.7 | 506.667 | 24 | False |
+| GPT-6-Astra/all | B_acq | 4 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |  | 380.25 | 50 | 6.86 | False |
+| GPT-6-Astra/all | B_legacy | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | gpt-6-astra | 2294 | 290.5 | 14 | False |
+| GPT-6-Astra/all | C | 7 | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | gpt-6-astra | 1587.57 | 196.571 | None | False |
+| GPT-6-Astra/all | D_enterprise | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 4 | gpt-6-astra | 1183 | 156 | 8.5 | False |
+| GPT-6-Astra/all | D_physical | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |  | 546.333 | 130.667 | 4.4 | False |
+| Gemini_3.1_Pro_Preview/all | A | 12 | 12 | 12 | 0 | 0 | 0 | 0 | 12 | 0 | 24 | gemini-3.1-pro-preview | 1109.83 | 596.25 | 11.5 | False |
+| Gemini_3.1_Pro_Preview/all | E | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 3 | 0 | 18 | gemini-3.1-pro-preview,vertex/google/gemini-3.1-pro-preview | 6469 | 1571 | 61 | False |
+| Gemini_3.1_Pro_Preview/all | B_acq | 4 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |  | 411.5 | 679.25 | 11.97 | False |
+| Gemini_3.1_Pro_Preview/all | B_legacy | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | gemini-3.1-pro-preview | 1091 | 610.5 | 15 | False |
+| Gemini_3.1_Pro_Preview/all | C | 7 | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | gemini-3.1-pro-preview | 1202.43 | 1223.29 | None | False |
+| Gemini_3.1_Pro_Preview/all | D_enterprise | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 4 | gemini-3.1-pro-preview | 1357.5 | 823 | 11.5 | False |
+| Gemini_3.1_Pro_Preview/all | D_physical | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |  | 582.667 | 1552 | 20.38 | False |
+| Qwen3.5-397B-A17B/all | A | 12 | 12 | 12 | 0 | 0 | 0 | 0 | 12 | 3 | 24 | qwen/qwen3.5-397b-a17b | 1972.5 | 1248.75 | 17 | False |
+| Qwen3.5-397B-A17B/all | E | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 3 | 3 | 18 | qwen/qwen3.5-397b-a17b | 17250.3 | 2293 | 51 | False |
+| Qwen3.5-397B-A17B/all | B_acq | 4 | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |  | 421 | 2989.5 | 55.18 | False |
+| Qwen3.5-397B-A17B/all | B_legacy | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | qwen/qwen3.5-397b-a17b | 2132.5 | 817.5 | 18 | False |
+| Qwen3.5-397B-A17B/all | C | 7 | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | qwen/qwen3.5-397b-a17b | 1608 | 1065.71 | None | False |
+| Qwen3.5-397B-A17B/all | D_enterprise | 2 | 2 | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 4 | qwen/qwen3.5-397b-a17b | 1179 | 1565.5 | 27.5 | False |
+| Qwen3.5-397B-A17B/all | D_physical | 3 | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 3 |  | 572.333 | 7060.33 | 99.14 | False |
+
+## Full-coverage projection from measured usage
+
+| model | proj_input_Mtok | proj_output_Mtok | proj_hours_serial |
+|---|---|---|---|
+| Claude_Opus_5.5 | 17.11 | 2.96 | 11.7 |
+| DeepSeek_V4_Pro_0813 | 9.04 | 11.53 | 53.1 |
+| GPT-6-Astra | 10.59 | 0.98 | 12 |
+| Gemini_3.1_Pro_Preview | 5.92 | 2.47 | 16.3 |
+| Qwen3.5-397B-A17B | 13.09 | 4.9 | 21 |
