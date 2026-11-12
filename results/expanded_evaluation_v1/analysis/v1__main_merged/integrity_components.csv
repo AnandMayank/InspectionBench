@@ -1,0 +1,21 @@
+view,model,regime,n,fabricated_observation,fabricated_procedure,verdict_reason_incoherence
+expanded_evaluation_v1,Claude Opus 5.5,DIGITAL_ONLY,796,5,0,0
+expanded_evaluation_v1,Claude Opus 5.5,ALL,2388,5,0,0
+expanded_evaluation_v1,Claude Opus 5.5,FULL,796,0,0,0
+expanded_evaluation_v1,Claude Opus 5.5,PHYSICAL_ONLY,796,0,0,0
+expanded_evaluation_v1,GPT-6-Astra,DIGITAL_ONLY,796,0,0,0
+expanded_evaluation_v1,GPT-6-Astra,ALL,2388,0,0,0
+expanded_evaluation_v1,GPT-6-Astra,FULL,796,0,0,0
+expanded_evaluation_v1,GPT-6-Astra,PHYSICAL_ONLY,796,0,0,0
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,DIGITAL_ONLY,796,0,0,3
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,ALL,2388,0,0,3
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,FULL,796,0,0,0
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,PHYSICAL_ONLY,796,0,0,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,DIGITAL_ONLY,796,0,0,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,ALL,2388,0,0,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,FULL,796,0,0,0
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,PHYSICAL_ONLY,796,0,0,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,DIGITAL_ONLY,796,0,0,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,ALL,2388,0,0,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,FULL,796,0,0,0
+expanded_evaluation_v1,Qwen3.5-397B-A17B,PHYSICAL_ONLY,796,0,0,0

@@ -1,0 +1,36 @@
+view,run,model,pool,eligible_units,persisted_units,coverage,infra_failed_units
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,A,2388,2388,1,0
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,E,469,469,1,0
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,B_acq,66,66,1,0
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,B_legacy,12,12,1,0
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,C,112,112,1,0
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,D_enterprise,16,16,1,0
+expanded_evaluation_v1,v1__main_merged,Claude Opus 5.5,D_physical,70,70,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,A,2388,2388,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,E,469,469,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,B_acq,66,66,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,B_legacy,12,12,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,C,112,112,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,D_enterprise,16,16,1,0
+expanded_evaluation_v1,v1__main_merged,GPT-6-Astra,D_physical,70,70,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,A,2388,2388,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,E,469,469,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,B_acq,66,66,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,B_legacy,12,12,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,C,112,112,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,D_enterprise,16,16,1,0
+expanded_evaluation_v1,v1__main_merged,DeepSeek V4 Pro 0813,D_physical,70,70,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,A,2388,2388,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,E,469,469,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,B_acq,66,66,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,B_legacy,12,12,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,C,112,112,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,D_enterprise,16,16,1,0
+expanded_evaluation_v1,v1__main_merged,Gemini 3.1 Pro Preview,D_physical,70,70,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,A,2388,2388,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,E,469,469,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,B_acq,66,66,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,B_legacy,12,12,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,C,112,112,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,D_enterprise,16,16,1,0
+expanded_evaluation_v1,v1__main_merged,Qwen3.5-397B-A17B,D_physical,70,70,1,0

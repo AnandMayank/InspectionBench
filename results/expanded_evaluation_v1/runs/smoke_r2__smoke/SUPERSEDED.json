@@ -1,0 +1,1 @@
+{"superseded": true, "reason": "transport changed to streaming (provider edge HTTP 524 on non-streamed generations >~100 s, verified 2026-11-02 for DeepSeek V4 Pro 0813). smoke_r2 completed fully for Claude, GPT-6-Astra, Gemini (all pools valid); DeepSeek/Qwen workers stopped mid-run. Superseded by smoke_r3; not used for results."}

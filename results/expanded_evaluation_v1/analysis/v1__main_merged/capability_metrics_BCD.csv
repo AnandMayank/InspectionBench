@@ -1,0 +1,21 @@
+view,model,capability,n,ADA,ASA,MAR,UAR,TDA_post,UHA,clusters(template x asset),coverage(recall),coverage_ci95(template x asset),precision,f1,ordering,forbidden_violation,CC,CSA,CS_precision,CS_recall,CS_F1,LCA,errors,CC_wilson95,required_action_recall
+expanded_evaluation_v1,Claude Opus 5.5,B,66,1,0.933333,0,0,0.257576,0.75,15,,,,,,,,,,,,,,,
+expanded_evaluation_v1,Claude Opus 5.5,C,112,,,,,,,,0.422885,"[0.340, 0.518]",0.744554,0.475048,0.598214,0,0.366071,,,,,,,,
+expanded_evaluation_v1,Claude Opus 5.5,D_physical,70,,,,,,,,,,,,,,0.871429,0.514286,0.871429,0.630952,0.701786,0.5,0,,
+expanded_evaluation_v1,Claude Opus 5.5,D_enterprise,16,,,,,,,,,,,,,,0.6875,,,,,,,"[0.44, 0.86]",0.319196
+expanded_evaluation_v1,GPT-6-Astra,B,66,1,0.933333,0,0,0.227273,1,15,,,,,,,,,,,,,,,
+expanded_evaluation_v1,GPT-6-Astra,C,112,,,,,,,,0.339392,"[0.283, 0.408]",0.83536,0.437923,0.785714,0,0.366071,,,,,,,,
+expanded_evaluation_v1,GPT-6-Astra,D_physical,70,,,,,,,,,,,,,,0.9,0.5,0.871429,0.607143,0.682143,0.446429,0,,
+expanded_evaluation_v1,GPT-6-Astra,D_enterprise,16,,,,,,,,,,,,,,0.75,,,,,,,"[0.51, 0.90]",0.196429
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,B,66,1,0.933333,0,0,0.424242,1,15,,,,,,,,,,,,,,,
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,C,112,,,,,,,,0.365221,"[0.306, 0.435]",0.818895,0.453227,0.758929,0.0982143,0.616071,,,,,,,,
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,D_physical,70,,,,,,,,,,,,,,0.714286,0.514286,0.728571,0.529762,0.573214,0.428571,0,,
+expanded_evaluation_v1,DeepSeek V4 Pro 0813,D_enterprise,16,,,,,,,,,,,,,,1,,,,,,,"[0.81, 1.00]",0.196429
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,B,66,1,0.933333,0,0,0.712121,1,15,,,,,,,,,,,,,,,
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,C,112,,,,,,,,0.141582,"[0.079, 0.220]",0.301786,0.180942,1,0.125,0.366071,,,,,,,,
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,D_physical,70,,,,,,,,,,,,,,0.742857,0.385714,0.728571,0.511905,0.580952,0.357143,0,,
+expanded_evaluation_v1,Gemini 3.1 Pro Preview,D_enterprise,16,,,,,,,,,,,,,,0.875,,,,,,,"[0.64, 0.97]",0.165179
+expanded_evaluation_v1,Qwen3.5-397B-A17B,B,66,1,0.933333,0,0,0.772727,1,15,,,,,,,,,,,,,,,
+expanded_evaluation_v1,Qwen3.5-397B-A17B,C,112,,,,,,,,0.274607,"[0.232, 0.327]",0.786756,0.375921,0.741071,0,0.669643,,,,,,,,
+expanded_evaluation_v1,Qwen3.5-397B-A17B,D_physical,70,,,,,,,,,,,,,,0.828571,0.457143,0.8,0.547619,0.616667,0.392857,0,,
+expanded_evaluation_v1,Qwen3.5-397B-A17B,D_enterprise,16,,,,,,,,,,,,,,1,,,,,,,"[0.81, 1.00]",0.205357

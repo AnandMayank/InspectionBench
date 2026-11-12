@@ -1,0 +1,4 @@
+{"model": "anthropic/claude-opus-5.5", "served_model": "claude-opus-5-5", "transport_attempts": 1, "input_tokens": 592, "output_tokens": 430, "reasoning_tokens": 0, "finish_reason": "stop", "pool": "B_legacy", "ts": "2026-11-03T15:17:27+0530"}
+{"model": "anthropic/claude-opus-5.5", "served_model": "claude-opus-5-5", "transport_attempts": 1, "input_tokens": 3689, "output_tokens": 1024, "reasoning_tokens": 0, "finish_reason": "length", "pool": "B_legacy", "ts": "2026-11-03T15:17:41+0530"}
+{"model": "anthropic/claude-opus-5.5", "served_model": "claude-opus-5-5", "transport_attempts": 1, "input_tokens": 592, "output_tokens": 325, "reasoning_tokens": 0, "finish_reason": "stop", "pool": "A", "ts": "2026-11-03T15:17:50+0530"}
+{"model": "anthropic/claude-opus-5.5", "served_model": "claude-opus-5-5", "transport_attempts": 1, "input_tokens": 3586, "output_tokens": 764, "reasoning_tokens": 0, "finish_reason": "stop", "pool": "A", "ts": "2026-11-03T15:18:01+0530"}

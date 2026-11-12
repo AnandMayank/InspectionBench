@@ -1,0 +1,13 @@
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 280, "output_tokens": 96, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:36:24+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 203, "output_tokens": 96, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:36:31+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 280, "output_tokens": 130, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:36:34+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 203, "output_tokens": 97, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:36:37+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 339, "output_tokens": 166, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:36:42+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 304, "output_tokens": 1874, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:37:17+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 277, "output_tokens": 80, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:37:19+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 304, "output_tokens": 762, "transport_attempts": 1, "pool": "B_acq", "ts": "2026-11-02T00:37:33+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "error": "InternalServerError: Error code: 524 - {'type': 'https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/', 'title': 'Error 524: A timeout occurred', 'status': 524, 'det", "pool": "D_physical", "ts": "2026-11-02T00:43:52+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "error": "InternalServerError: Error code: 524 - {'type': 'https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/', 'title': 'Error 524: A timeout occurred', 'status': 524, 'det", "pool": "D_physical", "ts": "2026-11-02T00:50:09+0530"}
+{"model": "tokenrouter/deepseek/deepseek-v4-pro-0813", "input_tokens": 648, "output_tokens": 7820, "transport_attempts": 1, "pool": "D_physical", "ts": "2026-11-02T00:54:15+0530"}
+{"model": "deepseek/deepseek-v4-pro-0813", "served_model": "deepseek-v4-pro-0813", "transport_attempts": 1, "input_tokens": 489, "output_tokens": 3890, "reasoning_tokens": 3869, "finish_reason": "stop", "pool": "C", "ts": "2026-11-02T00:55:25+0530"}
+{"model": "deepseek/deepseek-v4-pro-0813", "served_model": "deepseek-v4-pro-0813", "transport_attempts": 1, "input_tokens": 726, "output_tokens": 245, "reasoning_tokens": 187, "finish_reason": "stop", "pool": "C", "ts": "2026-11-02T00:55:30+0530"}

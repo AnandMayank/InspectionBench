@@ -1,0 +1,36 @@
+model,pool,constructed,excluded_pre_run,eligible,attempted,executed_without_infra_failure,valid_terminal_output,scored(missing=fail),invalid_or_missing_scored_0
+Claude Opus 5.5,A,2400,12,2388,2388,2388,2359,2388,29
+Claude Opus 5.5,E,1440,33,1407,1407,1407,1403,1407,4
+Claude Opus 5.5,B_acq,66,0,66,66,66,66,66,0
+Claude Opus 5.5,C,112,0,112,112,112,112,112,0
+Claude Opus 5.5,D_physical,70,0,70,70,70,70,70,0
+Claude Opus 5.5,D_enterprise,20,4,16,16,16,16,16,0
+Claude Opus 5.5,B_legacy,12,0,12,12,11,11,12,1
+GPT-6-Astra,A,2400,12,2388,2388,2388,2388,2388,0
+GPT-6-Astra,E,1440,33,1407,1407,1407,1407,1407,0
+GPT-6-Astra,B_acq,66,0,66,66,66,66,66,0
+GPT-6-Astra,C,112,0,112,112,112,112,112,0
+GPT-6-Astra,D_physical,70,0,70,70,70,70,70,0
+GPT-6-Astra,D_enterprise,20,4,16,16,16,16,16,0
+GPT-6-Astra,B_legacy,12,0,12,12,12,12,12,0
+DeepSeek V4 Pro 0813,A,2400,12,2388,2388,2388,2370,2388,18
+DeepSeek V4 Pro 0813,E,1440,33,1407,1407,1407,1407,1407,0
+DeepSeek V4 Pro 0813,B_acq,66,0,66,66,66,66,66,0
+DeepSeek V4 Pro 0813,C,112,0,112,112,112,112,112,0
+DeepSeek V4 Pro 0813,D_physical,70,0,70,70,70,58,70,12
+DeepSeek V4 Pro 0813,D_enterprise,20,4,16,16,16,16,16,0
+DeepSeek V4 Pro 0813,B_legacy,12,0,12,12,12,12,12,0
+Gemini 3.1 Pro Preview,A,2400,12,2388,2388,2388,2373,2388,15
+Gemini 3.1 Pro Preview,E,1440,33,1407,1407,1407,1407,1407,0
+Gemini 3.1 Pro Preview,B_acq,66,0,66,66,66,66,66,0
+Gemini 3.1 Pro Preview,C,112,0,112,112,112,112,112,0
+Gemini 3.1 Pro Preview,D_physical,70,0,70,70,70,70,70,0
+Gemini 3.1 Pro Preview,D_enterprise,20,4,16,16,16,16,16,0
+Gemini 3.1 Pro Preview,B_legacy,12,0,12,12,12,12,12,0
+Qwen3.5-397B-A17B,A,2400,12,2388,2388,2388,2364,2388,24
+Qwen3.5-397B-A17B,E,1440,33,1407,1407,1407,1406,1407,1
+Qwen3.5-397B-A17B,B_acq,66,0,66,66,66,66,66,0
+Qwen3.5-397B-A17B,C,112,0,112,112,112,112,112,0
+Qwen3.5-397B-A17B,D_physical,70,0,70,70,70,70,70,0
+Qwen3.5-397B-A17B,D_enterprise,20,4,16,16,16,16,16,0
+Qwen3.5-397B-A17B,B_legacy,12,0,12,12,12,12,12,0

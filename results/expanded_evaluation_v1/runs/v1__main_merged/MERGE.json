@@ -1,0 +1,6 @@
+{
+  "source": "v1__main",
+  "rerun": "v1__infra_rerun1",
+  "replaced_units": 4,
+  "rule": "infra-failed units replaced by successful infra re-runs; originals kept"
+}

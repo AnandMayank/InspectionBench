@@ -1,0 +1,61 @@
+pool,view,model,family,stratum,value,contrast,n_worlds,FULL_TDA,other_TDA,delta_pp,delta_ci95_pp,FULL_only_correct,other_only_correct,mcnemar_p,p_holm,significant_0.05
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F1,overall,ALL,FULL-DIGITAL_ONLY,796,0.763819,0.674623,8.9196,"[6.2, 11.8]",103,32,6.79679e-10,4.75775e-09,True
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F1,overall,ALL,FULL-PHYSICAL_ONLY,796,0.763819,0.758794,0.502513,"[-2.3, 3.3]",63,59,0.786058,1,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_in__iot_agree,FULL-DIGITAL_ONLY,199,0.668342,0.376884,29.1457,"[19.6, 39.2]",86,28,4.84213e-08,1.64633e-06,True
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_in__iot_agree,FULL-PHYSICAL_ONLY,199,0.668342,0.537688,13.0653,"[6.0, 20.1]",41,15,0.000685564,0.0212525,True
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_in__iot_disagree,FULL-DIGITAL_ONLY,197,0.385787,0.365482,2.03046,"[-1.0, 5.1]",7,3,0.34375,1,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_in__iot_disagree,FULL-PHYSICAL_ONLY,197,0.385787,0.492386,-10.6599,"[-18.3, -2.5]",22,43,0.0125025,0.337569,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_out__iot_agree,FULL-DIGITAL_ONLY,200,0.995,0.995,0,"[-1.5, 1.5]",1,1,1,1,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_out__iot_agree,FULL-PHYSICAL_ONLY,200,0.995,1,-0.5,"[-1.5, 0.0]",0,1,1,1,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_out__iot_disagree,FULL-DIGITAL_ONLY,200,1,0.955,4.5,"[2.0, 7.5]",9,0,0.00390625,0.109375,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F2,cell,phys_out__iot_disagree,FULL-PHYSICAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F3,decidability,determined,FULL-DIGITAL_ONLY,534,0.870787,0.765918,10.4869,"[6.6, 14.4]",88,32,3.18106e-07,1.90864e-06,True
+A_canonical,expanded_evaluation_v1,Claude Opus 5.5,F3,decidability,undecidable,FULL-DIGITAL_ONLY,262,0.545802,0.48855,5.72519,"[3.1, 8.8]",15,0,6.10352e-05,0.000244141,True
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F1,overall,ALL,FULL-DIGITAL_ONLY,796,0.753769,0.679648,7.41206,"[4.3, 10.6]",113,54,5.81405e-06,3.48843e-05,True
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F1,overall,ALL,FULL-PHYSICAL_ONLY,796,0.753769,0.786432,-3.26633,"[-6.7, 0.3]",83,109,0.0709196,0.354598,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_in__iot_agree,FULL-DIGITAL_ONLY,199,0.643216,0.346734,29.6482,"[17.6, 41.7]",113,54,5.81405e-06,0.000191864,True
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_in__iot_agree,FULL-PHYSICAL_ONLY,199,0.643216,0.547739,9.54774,"[1.0, 18.1]",48,29,0.0395395,0.948949,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_in__iot_disagree,FULL-DIGITAL_ONLY,197,0.365482,0.365482,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_in__iot_disagree,FULL-PHYSICAL_ONLY,197,0.365482,0.593909,-22.8426,"[-33.0, -12.7]",35,80,3.28444e-05,0.00105102,True
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_out__iot_agree,FULL-DIGITAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_out__iot_agree,FULL-PHYSICAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_out__iot_disagree,FULL-DIGITAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F2,cell,phys_out__iot_disagree,FULL-PHYSICAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F3,decidability,determined,FULL-DIGITAL_ONLY,534,0.872659,0.762172,11.0487,"[6.4, 15.7]",113,54,5.81405e-06,2.90703e-05,True
+A_canonical,expanded_evaluation_v1,GPT-6-Astra,F3,decidability,undecidable,FULL-DIGITAL_ONLY,262,0.51145,0.51145,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F1,overall,ALL,FULL-DIGITAL_ONLY,796,0.738693,0.589196,14.9497,"[11.9, 18.0]",146,27,5.89357e-21,5.30421e-20,True
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F1,overall,ALL,FULL-PHYSICAL_ONLY,796,0.738693,0.753769,-1.50754,"[-4.8, 1.8]",86,98,0.417479,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_in__iot_agree,FULL-DIGITAL_ONLY,199,0.638191,0.638191,0,"[-5.5, 5.5]",17,17,1,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_in__iot_agree,FULL-PHYSICAL_ONLY,199,0.638191,0.557789,8.0402,"[1.5, 14.6]",33,17,0.0328391,0.820978,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_in__iot_disagree,FULL-DIGITAL_ONLY,197,0.365482,0.35533,1.01523,"[-3.0, 5.1]",10,8,0.814529,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_in__iot_disagree,FULL-PHYSICAL_ONLY,197,0.365482,0.527919,-16.2437,"[-26.4, -6.1]",38,70,0.0026847,0.0778562,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_out__iot_agree,FULL-DIGITAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_out__iot_agree,FULL-PHYSICAL_ONLY,200,1,0.975,2.5,"[0.5, 5.0]",5,0,0.0625,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_out__iot_disagree,FULL-DIGITAL_ONLY,200,0.945,0.36,58.5,"[51.0, 65.5]",119,2,5.5536e-33,2.11037e-31,True
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F2,cell,phys_out__iot_disagree,FULL-PHYSICAL_ONLY,200,0.945,0.95,-0.5,"[-5.0, 4.0]",10,11,1,1,False
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F3,decidability,determined,FULL-DIGITAL_ONLY,534,0.840824,0.790262,5.05618,"[1.9, 8.2]",53,26,0.00318301,0.00954903,True
+A_canonical,expanded_evaluation_v1,DeepSeek V4 Pro 0813,F3,decidability,undecidable,FULL-DIGITAL_ONLY,262,0.530534,0.179389,35.1145,"[29.4, 40.8]",93,1,9.59255e-27,6.71478e-26,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F1,overall,ALL,FULL-DIGITAL_ONLY,796,0.807789,0.243719,56.407,"[52.4, 60.4]",481,32,5.98711e-104,5.98711e-103,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F1,overall,ALL,FULL-PHYSICAL_ONLY,796,0.807789,0.801508,0.628141,"[-1.8, 3.0]",50,45,0.681743,1,False
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_in__iot_agree,FULL-DIGITAL_ONLY,199,0.643216,0.165829,47.7387,"[39.7, 55.3]",101,6,2.36525e-23,8.5149e-22,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_in__iot_agree,FULL-PHYSICAL_ONLY,199,0.643216,0.582915,6.03015,"[-0.5, 12.6]",27,15,0.0884295,1,False
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_in__iot_disagree,FULL-DIGITAL_ONLY,197,0.583756,0.162437,42.132,"[32.0, 51.8]",109,26,2.76631e-13,9.68209e-12,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_in__iot_disagree,FULL-PHYSICAL_ONLY,197,0.583756,0.619289,-3.5533,"[-10.7, 3.6]",23,30,0.410103,1,False
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_out__iot_agree,FULL-DIGITAL_ONLY,200,1,0.4,60,"[53.0, 67.0]",120,0,1.50463e-36,5.86807e-35,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_out__iot_agree,FULL-PHYSICAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_out__iot_disagree,FULL-DIGITAL_ONLY,200,1,0.245,75.5,"[69.5, 81.5]",151,0,7.00649e-46,2.8026e-44,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F2,cell,phys_out__iot_disagree,FULL-PHYSICAL_ONLY,200,1,1,0,"[0.0, 0.0]",0,0,1,1,False
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F3,decidability,determined,FULL-DIGITAL_ONLY,534,0.762172,0.303371,45.8801,"[40.6, 50.9]",277,32,7.44772e-50,6.70295e-49,True
+A_canonical,expanded_evaluation_v1,Gemini 3.1 Pro Preview,F3,decidability,undecidable,FULL-DIGITAL_ONLY,262,0.900763,0.122137,77.8626,"[72.9, 82.8]",204,0,7.77877e-62,7.77877e-61,True
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F1,overall,ALL,FULL-DIGITAL_ONLY,796,0.795226,0.591709,20.3518,"[16.2, 24.6]",241,79,3.3413e-20,2.67304e-19,True
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F1,overall,ALL,FULL-PHYSICAL_ONLY,796,0.795226,0.770101,2.51256,"[-0.4, 5.5]",83,63,0.11554,0.462159,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_in__iot_agree,FULL-DIGITAL_ONLY,199,0.643216,0.567839,7.53769,"[-1.5, 16.6]",49,34,0.123853,1,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_in__iot_agree,FULL-PHYSICAL_ONLY,199,0.643216,0.552764,9.04523,"[2.0, 16.1]",36,18,0.0198343,0.515692,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_in__iot_disagree,FULL-DIGITAL_ONLY,197,0.553299,0.365482,18.7817,"[8.1, 29.4]",80,43,0.00108443,0.0325329,True
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_in__iot_disagree,FULL-PHYSICAL_ONLY,197,0.553299,0.558376,-0.507614,"[-9.6, 8.6]",40,41,1,1,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_out__iot_agree,FULL-DIGITAL_ONLY,200,0.995,1,-0.5,"[-1.5, 0.0]",0,1,1,1,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_out__iot_agree,FULL-PHYSICAL_ONLY,200,0.995,0.995,0,"[-1.5, 1.5]",1,1,1,1,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_out__iot_disagree,FULL-DIGITAL_ONLY,200,0.985,0.43,55.5,"[48.5, 62.5]",112,1,2.19556e-32,8.12357e-31,True
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F2,cell,phys_out__iot_disagree,FULL-PHYSICAL_ONLY,200,0.985,0.97,1.5,"[-1.5, 4.5]",6,3,0.507812,1,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F3,decidability,determined,FULL-DIGITAL_ONLY,534,0.782772,0.777154,0.561798,"[-3.9, 5.1]",81,78,0.87404,1,False
+A_canonical,expanded_evaluation_v1,Qwen3.5-397B-A17B,F3,decidability,undecidable,FULL-DIGITAL_ONLY,262,0.820611,0.21374,60.687,"[54.6, 66.8]",160,1,1.10845e-46,8.86759e-46,True

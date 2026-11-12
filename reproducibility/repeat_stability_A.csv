@@ -1,0 +1,6 @@
+model,episodes_repeated,same_verdict,same_TDA,same_GSR,TDA_main,TDA_repeat,GSR_main,GSR_repeat
+Claude Opus 5.5,60,58,58,58,55,57,38,40
+GPT-6-Astra,60,58,58,58,51,51,34,34
+DeepSeek V4 Pro 0813,60,51,51,50,48,45,30,30
+Gemini 3.1 Pro Preview,60,56,57,60,30,31,27,27
+Qwen3.5-397B-A17B,60,53,54,55,46,48,28,31

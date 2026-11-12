@@ -1,0 +1,18 @@
+digraph routes {
+  rankdir=LR; fontname="Helvetica"; node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10]; edge [fontname="Helvetica", fontsize=9];
+  subgraph cluster_tools { label="Same tool implementations (src/servers/*/main.py)"; style=dashed; color=gray50;
+    robot [label="robot FastMCP server\n29 tools (read_gauge, capture_image,\nnavigate_to, safety_gate_check, ...)", fillcolor="#eef2f7"];
+    others [label="wo / iot / vibration / tsfm / fmsr / utilities\nFastMCP servers (38 tools)", fillcolor="#eef2f7"];
+    adapters [label="CouchDB adapters\nget_work_order, get_asset_state,\nread_iot, get_sensor_history", fillcolor="#eef2f7"];
+  }
+  subgraph cluster_ref { label="Route 1: reference harness (ALL reported scores)"; style=filled; color="#e8f4ea";
+    ref [label="Two-call JSON runner\nSTEP 1 tool names -> executor (first 8, asset bound)\n-> STEP 2 verdict + cited evidence\nnames only; temperature 0; max_tokens 1,024", fillcolor=white];
+  }
+  subgraph cluster_aob { label="Route 2: AssetOpsBench harnesses (supported; not used for reported scores)"; style=filled; color="#fff4e5";
+    aob [label="plan-execute | claude-agent | openai-agent\n| deep-agent | stirrup-agent\nmulti-turn tool calling with full JSON schemas", fillcolor=white];
+    reg [label="agent.runner.DEFAULT_SERVER_PATHS\n\"robot\": \"robot-mcp-server\", ...", shape=note, fillcolor="#fffbe6"];
+  }
+  ref -> robot [label="in-process call"]; ref -> adapters [label="in-process call"];
+  aob -> reg [style=dotted, arrowhead=none];
+  aob -> robot [label="stdio MCP\n(list_tools -> schemas)", color="#c05a00"]; aob -> others [label="stdio MCP", color="#c05a00"];
+}
